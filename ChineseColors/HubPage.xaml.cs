@@ -101,10 +101,12 @@ namespace ChineseColors
         private void GroupSection_ItemClick(object sender, ItemClickEventArgs e)
         {
             var groupId = ((SampleDataGroup)e.ClickedItem).UniqueId;
+           /*
             if (!Frame.Navigate(typeof(SectionPage), groupId))
             {
                 throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
             }
+            * */
         }
 
         /// <summary>
@@ -115,10 +117,12 @@ namespace ChineseColors
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+            /*
             if (!Frame.Navigate(typeof(ItemPage), itemId))
             {
                 throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
             }
+             */
         }
 
         #region NavigationHelper registration

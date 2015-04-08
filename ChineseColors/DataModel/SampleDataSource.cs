@@ -23,13 +23,13 @@ namespace ChineseColors.Data
     /// </summary>
     public class SampleDataItem
     {
-        public SampleDataItem(String uniqueId, String title, String subtitle, String imagePath, String description, String content)
+        public SampleDataItem(String uniqueId, String title, String subtitle, String color, String description, String content)
         {
             this.UniqueId = uniqueId;
             this.Title = title;
             this.Subtitle = subtitle;
             this.Description = description;
-            this.ImagePath = imagePath;
+            this.Color = color;
             this.Content = content;
         }
 
@@ -37,7 +37,7 @@ namespace ChineseColors.Data
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
         public string Description { get; private set; }
-        public string ImagePath { get; private set; }
+        public string Color { get; private set; }
         public string Content { get; private set; }
 
         public override string ToString()
@@ -51,13 +51,13 @@ namespace ChineseColors.Data
     /// </summary>
     public class SampleDataGroup
     {
-        public SampleDataGroup(String uniqueId, String title, String subtitle, String imagePath, String description)
+        public SampleDataGroup(String uniqueId, String title, String subtitle, String color, String description)
         {
             this.UniqueId = uniqueId;
             this.Title = title;
             this.Subtitle = subtitle;
             this.Description = description;
-            this.ImagePath = imagePath;
+            this.Color = color;
             this.Items = new ObservableCollection<SampleDataItem>();
         }
 
@@ -65,7 +65,7 @@ namespace ChineseColors.Data
         public string Title { get; private set; }
         public string Subtitle { get; private set; }
         public string Description { get; private set; }
-        public string ImagePath { get; private set; }
+        public string Color { get; private set; }
         public ObservableCollection<SampleDataItem> Items { get; private set; }
 
         public override string ToString()
@@ -133,7 +133,7 @@ namespace ChineseColors.Data
                 SampleDataGroup group = new SampleDataGroup(groupObject["UniqueId"].GetString(),
                                                             groupObject["Title"].GetString(),
                                                             groupObject["Subtitle"].GetString(),
-                                                            groupObject["ImagePath"].GetString(),
+                                                            groupObject["Color"].GetString(),
                                                             groupObject["Description"].GetString());
 
                 foreach (JsonValue itemValue in groupObject["Items"].GetArray())
@@ -142,7 +142,7 @@ namespace ChineseColors.Data
                     group.Items.Add(new SampleDataItem(itemObject["UniqueId"].GetString(),
                                                        itemObject["Title"].GetString(),
                                                        itemObject["Subtitle"].GetString(),
-                                                       itemObject["ImagePath"].GetString(),
+                                                       itemObject["Color"].GetString(),
                                                        itemObject["Description"].GetString(),
                                                        itemObject["Content"].GetString()));
                 }
