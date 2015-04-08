@@ -8,7 +8,7 @@
     xmlns:data="using:ChineseColors.Data"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Background="Transparent" Foreground="White">
 
     <Page.Resources>
         <DataTemplate x:Key="HubSectionHeaderTemplate">
@@ -33,32 +33,34 @@
                 <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,9.5,0,0" Grid.Column="0" HorizontalAlignment="Left">
                     <Rectangle Width="10" Height="79" Fill="{Binding Color}"/>
                 </Border>
+                <!--规定一个色条的样式-->
                 <StackPanel Grid.Column="1" Margin="14.5,0,0,0">
                     <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
-                    <TextBlock Text="{Binding Description}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="{ThemeResource PhoneMidBrush}" />
-                    <TextBlock Text="{Binding Subtitle}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" />
+                    <TextBlock Text="{Binding Description}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="White" />
+                    <TextBlock Text="{Binding Subtitle}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="White"/>
                 </StackPanel>
             </Grid>
         </DataTemplate>
 
     </Page.Resources>
+    <!--底部APP Bar-->
     <Page.BottomAppBar>
         <CommandBar ClosedDisplayMode="Minimal" Background="Transparent">
-            <AppBarButton Icon="CellPhone" Label="壁纸"/>
-            <AppBarButton Icon="Like" Label="好评"/>
-            <AppBarButton Icon="Help" Label="关于"/>
+            <AppBarButton Icon="CellPhone" Label="壁纸" Click="aclick"/>
+            <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
+            <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid x:Name="LayoutRoot">
-        <Hub x:Name="Hub" x:Uid="Hub" Header="中国传统色" Background="Black">
+        <Hub x:Name="Hub" x:Uid="Hub" Background="Transparent">
 
 
-            <HubSection x:Uid="HubSection3" Header="SEC"
+            <HubSection x:Uid="HubSection3" 
                         DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
                 <DataTemplate>
                     <ListView                         
-                        AutomationProperties.AutomationId="ItemListViewSection3"
+                        AutomationProperties.AutomationId="ItemListView"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
                         IsItemClickEnabled="True"

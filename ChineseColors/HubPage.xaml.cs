@@ -19,6 +19,8 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI;
+using Windows.ApplicationModel;
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -32,6 +34,7 @@ namespace ChineseColors
         private readonly NavigationHelper navigationHelper;
         private readonly ObservableDictionary defaultViewModel = new ObservableDictionary();
         private readonly ResourceLoader resourceLoader = ResourceLoader.GetForCurrentView("Resources");
+        String appversion = GetAppVersion();
 
         public HubPage()
         {
@@ -117,6 +120,14 @@ namespace ChineseColors
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+            var itemColor = ((SampleDataItem)e.ClickedItem).Color;
+            var Brush = new SolidColorBrush();
+            Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+                Convert.ToByte(itemColor.Substring(3, 2), 16),
+                Convert.ToByte(itemColor.Substring(5, 2), 16),
+                Convert.ToByte(itemColor.Substring(7, 2), 16));
+           // Brush.Color = Color.FromArgb(255, 0, 0, 255);
+            Hub.Background=Brush;
             /*
             if (!Frame.Navigate(typeof(ItemPage), itemId))
             {
@@ -150,5 +161,33 @@ namespace ChineseColors
         }
 
         #endregion
+
+#region APPBARBUTTON
+        public static string GetAppVersion()
+        //using Windows.ApplicationModel;
+        {
+            Package package = Package.Current;
+            PackageId packageId = package.Id;
+            PackageVersion version = packageId.Version;
+            string temp = String.Format("{0}.{0}.{0}.{0}版", version.Major, version.Minor, version.Build, version.Revision);
+            return temp;
+        }
+
+        private void aclick(object sender, RoutedEventArgs e)
+        {
+            //设置壁纸
+        }
+        private void cclick(object sender, RoutedEventArgs e)
+        {
+            //this.NavigationService.Navigate(new Uri("/Info_Page.xaml", UriKind.Relative));
+            Frame.Navigate(typeof(PageInfo),appversion);
+        }
+
+        private async void bclick(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(
+    new Uri(string.Format("ms-windows-store:reviewapp?appid=" + "f840285e-0a27-49a5-81d6-78edf83e82b9")));
+        }
+#endregion
     }
 }
