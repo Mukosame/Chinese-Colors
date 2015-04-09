@@ -5,8 +5,10 @@
     xmlns:local="using:ChineseColors"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    mc:Ignorable="d" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
+	<Page.Background>
+		<ImageBrush ImageSource="back.jpg"/>
+	</Page.Background>
 
     <Grid x:Name="LayoutRoot">
 
@@ -23,12 +25,21 @@
 
         <!-- Title Panel -->
         <StackPanel Grid.Row="0" Margin="19,0,0,0">
-            <TextBlock Text="MY APPLICATION" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
-            <TextBlock Text="page title" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+            <TextBlock Text="中国传统色" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0" Foreground="#FF3E0A0E"/>
+            <TextBlock Text="关于" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" Margin="0,6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" Foreground="#FF5C0A0E"/>
         </StackPanel>
 
         <!--TODO: Content should be placed within the following grid-->
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <StackPanel>
+            <TextBlock FontSize="22">
+                <LineBreak/>资料来源：《中国传统色彩名录》
+                <LineBreak/>开发者：Mukosame
+            </TextBlock>
+            <Button Content="给我发邮件" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,11,182.667,0" Height="78" BorderThickness="0" Background="#FFB75056" Click="email"/>
+            <Button Content="我的其他应用" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,33,182.667,0" Height="78" BorderThickness="0" Background="#FF81161C" Click="otherapp"/>
+
+            </StackPanel>
 
         </Grid>
     </Grid>

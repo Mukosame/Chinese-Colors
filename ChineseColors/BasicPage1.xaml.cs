@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.ApplicationModel.Email;//to send the email
+using Windows.Security.ExchangeActiveSyncProvisioning; //to create email object
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -27,6 +29,7 @@ namespace ChineseColors
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        String appversion;
 
         public BasicPage1()
         {
@@ -99,6 +102,7 @@ namespace ChineseColors
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             this.navigationHelper.OnNavigatedTo(e);
+            appversion = "中国传统色" + e.Parameter.ToString();
         }
 
         protected override void OnNavigatedFrom(NavigationEventArgs e)
@@ -106,6 +110,31 @@ namespace ChineseColors
             this.navigationHelper.OnNavigatedFrom(e);
         }
 
+        #endregion
+
+        #region Appemail
+        async void email(object sender, RoutedEventArgs e)
+        {
+
+            EasClientDeviceInformation CurrentDeviceInfor = new Windows.Security.ExchangeActiveSyncProvisioning.EasClientDeviceInformation();
+            String OSVersion = CurrentDeviceInfor.OperatingSystem;
+            String Manufacturer = CurrentDeviceInfor.SystemManufacturer;
+            String FriendlyName = CurrentDeviceInfor.FriendlyName;
+
+            Windows.ApplicationModel.Email.EmailMessage mail = new Windows.ApplicationModel.Email.EmailMessage();
+            mail.Subject = "[WP8]反馈" + appversion;
+            mail.Body = "\n\n\n生产厂商：" + Manufacturer + "\n手机型号：" + FriendlyName + "\nOS版本：" + OSVersion;
+            mail.To.Add(new Windows.ApplicationModel.Email.EmailRecipient("mukosame@gmail.com", "Mukosame"));
+            await Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(mail);
+
+        }
+
+        //search in app store
+        private async void otherapp(object sender, RoutedEventArgs e)
+        {
+            var uri = new Uri(string.Format(@"ms-windows-store:search?publisher=Mukosame"));
+            await Windows.System.Launcher.LaunchUriAsync(uri);
+        }
         #endregion
     }
 }

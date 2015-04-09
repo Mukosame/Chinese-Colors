@@ -45,7 +45,7 @@
     <!--底部APP Bar-->
     <Page.BottomAppBar>
         <CommandBar ClosedDisplayMode="Minimal" Background="Transparent">
-            <AppBarButton Icon="CellPhone" Label="壁纸" Click="aclick"/>
+            <!--AppBarButton Icon="CellPhone" Label="壁纸" Click="aclick"/-->
             <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
         </CommandBar>
@@ -81,15 +81,15 @@
         <Grid Margin="120,20,8,0">
             <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" Foreground="White"/>
         </Grid>
-        <Grid Margin="200,220,20,0">
+        <Grid Margin="187,220,10,0">
             <Grid.RowDefinitions>
             	<RowDefinition Height="Auto"/>
             	<RowDefinition Height="Auto"/>
             	<RowDefinition Height="30"/>
             	<RowDefinition Height="*" />
             </Grid.RowDefinitions>
-        		<TextBlock x:Name="RGB" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="24"  HorizontalAlignment="Right" Foreground="White"/>
-        	<TextBlock x:Name="CMYK" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="24" HorizontalAlignment="Right" Foreground="White"/>
+        		<TextBlock x:Name="RGB" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23"  HorizontalAlignment="Right" Foreground="White"/>
+        	<TextBlock x:Name="CMYK" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
             <TextBlock x:Name="des" Text="" FontSize="20" HorizontalAlignment="Left"
         		Grid.Row="3" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="White" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"/>
         </Grid>
