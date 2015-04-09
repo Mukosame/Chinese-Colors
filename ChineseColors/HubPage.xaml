@@ -12,8 +12,9 @@
 
     <Page.Resources>
         <DataTemplate x:Key="HubSectionHeaderTemplate">
-            <TextBlock Margin="0,0,0,-9.5" Text="{Binding}"/>
+            <TextBlock Margin="0,0,0,-9.5" Text=""/>
         </DataTemplate>
+        
 
         <!-- Grid-appropriate item template-->
         <DataTemplate x:Key="Standard200x180TileItemTemplate">
@@ -29,15 +30,13 @@
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-
+                
+                <!--规定一个色条的样式-->
                 <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,9.5,0,0" Grid.Column="0" HorizontalAlignment="Left">
                     <Rectangle Width="10" Height="79" Fill="{Binding Color}"/>
                 </Border>
-                <!--规定一个色条的样式-->
                 <StackPanel Grid.Column="1" Margin="14.5,0,0,0">
-                    <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
-                    <TextBlock Text="{Binding Description}" Style="{ThemeResource ListViewItemContentTextBlockStyle}" Foreground="White" />
-                    <TextBlock Text="{Binding Subtitle}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}" Foreground="White"/>
+                    <TextBlock Text="{Binding Title}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
                 </StackPanel>
             </Grid>
         </DataTemplate>
@@ -53,11 +52,10 @@
     </Page.BottomAppBar>
 
     <Grid x:Name="LayoutRoot">
-        <Hub x:Name="Hub" x:Uid="Hub" Background="Transparent">
 
-
-            <HubSection x:Uid="HubSection3" 
-                        DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+        <Hub x:Name="Hub" Background="Transparent">
+            <HubSection x:Uid="HubSection3"  
+                        DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
                 <DataTemplate>
                     <ListView                         
                         AutomationProperties.AutomationId="ItemListView"
@@ -72,6 +70,29 @@
                 </DataTemplate>
             </HubSection>
 
+            <!-- 解释页-->
+            <HubSection x:Uid="HubSectionAdd" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
+                <DataTemplate>
+
+                </DataTemplate>
+            </HubSection>
+
         </Hub>
+        <Grid Margin="120,20,8,0">
+            <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" Foreground="White"/>
+        </Grid>
+        <Grid Margin="200,220,20,0">
+            <Grid.RowDefinitions>
+            	<RowDefinition Height="Auto"/>
+            	<RowDefinition Height="Auto"/>
+            	<RowDefinition Height="30"/>
+            	<RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+        		<TextBlock x:Name="RGB" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="24"  HorizontalAlignment="Right" Foreground="White"/>
+        	<TextBlock x:Name="CMYK" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="24" HorizontalAlignment="Right" Foreground="White"/>
+            <TextBlock x:Name="des" Text="" FontSize="20" HorizontalAlignment="Left"
+        		Grid.Row="3" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="White" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"/>
+        </Grid>
     </Grid>
+    
 </Page>

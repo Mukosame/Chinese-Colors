@@ -21,6 +21,9 @@ using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 using Windows.UI;
 using Windows.ApplicationModel;
+using Windows.UI.Xaml.Media.Animation;//coloranimation
+using Windows.Data.Json;
+using Windows.Storage;
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -39,6 +42,7 @@ namespace ChineseColors
         public HubPage()
         {
             this.InitializeComponent();
+            InitRandom();
 
             // Hub is only supported in Portrait orientation
             DisplayInformation.AutoRotationPreferences = DisplayOrientations.Portrait;
@@ -118,16 +122,29 @@ namespace ChineseColors
         private void ItemView_ItemClick(object sender, ItemClickEventArgs e)
         {
             // Navigate to the appropriate destination page, configuring the new page
-            // by passing required information as a navigation parameter
+            // by passing required information as a navigation parameter       
+            Storyboard animation = new Storyboard();
+            ColorAnimation changeColorAnimation = new ColorAnimation();
+            changeColorAnimation.EnableDependentAnimation = true;
+            changeColorAnimation.Duration = new Duration(TimeSpan.FromSeconds(1));
+            Storyboard.SetTarget(changeColorAnimation, Hub);
+            PropertyPath p = new PropertyPath("(Hub.Background).(SolidColorBrush.Color)");
+            Storyboard.SetTargetProperty(changeColorAnimation, p.Path);
+
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
             var itemColor = ((SampleDataItem)e.ClickedItem).Color;
-            var Brush = new SolidColorBrush();
-            Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+            Title.Text = ((SampleDataItem)e.ClickedItem).Title;
+            RGB.Text = ((SampleDataItem)e.ClickedItem).Subtitle;
+            CMYK.Text = ((SampleDataItem)e.ClickedItem).Content;
+            des.Text ='“' + ((SampleDataItem)e.ClickedItem).Description + '”';
+
+            changeColorAnimation.To = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
                 Convert.ToByte(itemColor.Substring(3, 2), 16),
                 Convert.ToByte(itemColor.Substring(5, 2), 16),
                 Convert.ToByte(itemColor.Substring(7, 2), 16));
-           // Brush.Color = Color.FromArgb(255, 0, 0, 255);
-            Hub.Background=Brush;
+            //Hub.Background=Brush;
+            animation.Children.Add(changeColorAnimation);
+            animation.Begin();
             /*
             if (!Frame.Navigate(typeof(ItemPage), itemId))
             {
@@ -180,7 +197,7 @@ namespace ChineseColors
         private void cclick(object sender, RoutedEventArgs e)
         {
             //this.NavigationService.Navigate(new Uri("/Info_Page.xaml", UriKind.Relative));
-            Frame.Navigate(typeof(PageInfo),appversion);
+            Frame.Navigate(typeof(BasicPage1), appversion);
         }
 
         private async void bclick(object sender, RoutedEventArgs e)
@@ -189,5 +206,30 @@ namespace ChineseColors
     new Uri(string.Format("ms-windows-store:reviewapp?appid=" + "f840285e-0a27-49a5-81d6-78edf83e82b9")));
         }
 #endregion
+        #region InitFeature
+        //not finished
+        private void InitRandom()
+        {
+            /*
+            Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
+
+            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
+            string jsonText = await FileIO.ReadTextAsync(file);
+            JsonObject response = JsonObject.Parse(jsonText);
+            JsonArray trends = response["Groups"].GetArray();
+
+            int Size = trends.Count;
+            Random r = new Random();
+            int randomObjectIndext = r.Next(Size - 0) + 0;
+            */
+            Title.Text = "粉红";
+            RGB.Text = "RGB:255,179,167";
+            CMYK.Text = "CMYK:0,37,26,0";
+            des.Text = "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色。";
+            var Brush = new SolidColorBrush();
+            Brush.Color = Color.FromArgb(255, 255, 179, 167);
+            Hub.Background = Brush;
+        }
+        #endregion
     }
 }

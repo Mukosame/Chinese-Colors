@@ -23,12 +23,12 @@ namespace ChineseColors
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class PageInfo : Page
+    public sealed partial class BasicPage1 : Page
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
-        public PageInfo()
+        public BasicPage1()
         {
             this.InitializeComponent();
 
