@@ -3,7 +3,7 @@
     "UniqueId": "Group-1",
     "Title": "Group Title: 1",
     "Subtitle": "Group subtitle: 1",
-    "Color": "Assets/DarkGray.png",
+    "Color": "Chinese Color",
     "Description" : "Group Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor scelerisque lorem in vehicula. Aliquam tincidunt, lacus ut sagittis tristique, turpis massa volutpat augue, eu rutrum ligula ante a ante",
     "Items":
     [
@@ -1021,7 +1021,7 @@
 
   "Content": "CMYK:71,20,67,3",
   "Color": "#FF519a73",
-  "Description" : ""
+  "Description" : "苍黄：黄而发青；暗黄色"
 },
 {
   "UniqueId": "rgb(162, 155, 124)",
@@ -1030,7 +1030,7 @@
 
   "Content": "CMYK:38,33,55,3",
   "Color": "#FFa29b7c",
-  "Description" : ""
+  "Description" : "苍青：苍：草色；青：东方之色，春色"
 },
 {
   "UniqueId": "rgb(115, 151, 171)",
@@ -1039,7 +1039,7 @@
 
   "Content": "CMYK:58,32,25,1",
   "Color": "#FF7397ab",
-  "Description" : ""
+  "Description" : "苍黑：青黑色；灰黑色。"
 },
 {
   "UniqueId": "rgb(209, 217, 224)",
@@ -1048,7 +1048,7 @@
 
   "Content": "CMYK:17,9,7,0",
   "Color": "#FFd1d9e0",
-  "Description" : ""
+  "Description" : "苍白：白而略微发青；灰白色。一说浅青色和白色"
 },
 {
   "UniqueId": "rgb(136, 173, 166)",
@@ -1057,7 +1057,7 @@
 
   "Content": "CMYK:49,20,35,0",
   "Color": "#FF88ada6",
-  "Description" : ""
+  "Description" : "水色：水面呈现的色泽，淡青色，接近白色"
 },
 {
   "UniqueId": "rgb(243, 211, 231)",
@@ -1066,7 +1066,7 @@
 
   "Content": "CMYK:2,19,0,0",
   "Color": "#FFf3d3e7",
-  "Description" : ""
+  "Description" : "水红：比粉红略深而较鲜艳的颜色"
 },
 {
   "UniqueId": "rgb(212, 242, 231)",
@@ -1075,7 +1075,7 @@
 
   "Content": "CMYK:16,0,11,0",
   "Color": "#FFd4f2e7",
-  "Description" : ""
+  "Description" : "水绿：很浅的绿色"
 },
 {
   "UniqueId": "rgb(210, 240, 244)",
@@ -1084,7 +1084,7 @@
 
   "Content": "CMYK:16,0,4,0",
   "Color": "#FFd2f0f4",
-  "Description" : ""
+  "Description" : "水蓝：很浅的蓝色"
 },
 {
   "UniqueId": "rgb(211, 224, 243)",
@@ -1093,7 +1093,7 @@
 
   "Content": "CMYK:15,7,0,0",
   "Color": "#FFd3e0f3",
-  "Description" : ""
+  "Description" : "淡青：浅青色，介于鸭卵青和玉色之间"
 },
 {
   "UniqueId": "rgb(48, 223, 243)",
@@ -1102,7 +1102,7 @@
 
   "Content": "CMYK:57,0,10,0",
   "Color": "#FF30dff3",
-  "Description" : ""
+  "Description" : "湖蓝：较深的蓝色，介于蓝和绿之间"
 },
 {
   "UniqueId": "rgb(37, 248, 203)",
@@ -1111,7 +1111,7 @@
 
   "Content": "CMYK:55,0,36,0",
   "Color": "#FF25f8cb",
-  "Description" : ""
+  "Description" : "湖绿：介于蓝和绿之间，略深的绿色"
 },
 {
   "UniqueId": "rgb(255, 255, 255)",
@@ -1124,12 +1124,12 @@
 },
 {
   "UniqueId": "rgb(255, 251, 240)",
-  "Title":"像牙白",
+  "Title":"象牙白",
   "Subtitle": "RGB:255,251,240",
 
   "Content": "CMYK:0,1,5,0",
   "Color": "#FFfffbf0",
-  "Description" : "像牙白：乳白色"
+  "Description" : "象牙白：乳白色"
 },
 {
   "UniqueId": "rgb(240, 252, 255)",
@@ -1227,7 +1227,7 @@
 
   "Content": "CMYK:7,10,35,0",
   "Color": "#FFeedeb0",
-  "Description" : "牙色：与像牙相似的淡黄色（注：暖白）"
+  "Description" : "牙色：与象牙相似的淡黄色（注：暖白）"
 },
 {
   "UniqueId": "rgb(240, 240, 244)",
@@ -1408,7 +1408,7 @@
 
   "Content": "CMYK:69,24,51,3",
   "Color": "#FF549688",
-  "Description" : ""
+  "Description" : "铜绿：铜表面所生成的铜锈的颜色，铜黛色"
 },
 {
   "UniqueId": "rgb(167, 142, 68)",
@@ -1417,7 +1417,7 @@
 
   "Content": "CMYK:34,38,87,7",
   "Color": "#FFa78e44",
-  "Description" : ""
+  "Description" : "乌金：暗金色"
 },
 {
   "UniqueId": "rgb(186, 202, 198)",

@@ -38,12 +38,13 @@ namespace ChineseColors
         private readonly ObservableDictionary defaultViewModel = new ObservableDictionary();
         private readonly ResourceLoader resourceLoader = ResourceLoader.GetForCurrentView("Resources");
         String appversion = GetAppVersion();
+        int flag=0;
 
         public HubPage()
         {
             this.InitializeComponent();
             InitRandom();
-
+        
             // Hub is only supported in Portrait orientation
             DisplayInformation.AutoRotationPreferences = DisplayOrientations.Portrait;
 
@@ -193,6 +194,7 @@ namespace ChineseColors
         private void aclick(object sender, RoutedEventArgs e)
         {
             //设置壁纸
+
         }
         private void cclick(object sender, RoutedEventArgs e)
         {
@@ -205,29 +207,43 @@ namespace ChineseColors
             await Windows.System.Launcher.LaunchUriAsync(
     new Uri(string.Format("ms-windows-store:reviewapp?appid=" + "f840285e-0a27-49a5-81d6-78edf83e82b9")));
         }
+
+        private void ChangeForeground(object sender, RoutedEventArgs e)
+        {
+            if (flag == 0) flag = 1;
+            else flag = 0;
+            Title.Foreground = new SolidColorBrush(FontColor[flag]);
+            RGB.Foreground = new SolidColorBrush(FontColor[flag]);
+            CMYK.Foreground = new SolidColorBrush(FontColor[flag]);
+            des.Foreground = new SolidColorBrush(FontColor[flag]);
+
+        }
+
+        static Color[] FontColor = { Colors.White, Colors.LightGray};
+
 #endregion
         #region InitFeature
         //not finished
-        private void InitRandom()
+        private async void InitRandom()
         {
-            /*
-            Uri dataUri = new Uri("ms-appx:///DataModel/SampleData.json");
-
-            StorageFile file = await StorageFile.GetFileFromApplicationUriAsync(dataUri);
-            string jsonText = await FileIO.ReadTextAsync(file);
-            JsonObject response = JsonObject.Parse(jsonText);
-            JsonArray trends = response["Groups"].GetArray();
-
-            int Size = trends.Count;
             Random r = new Random();
-            int randomObjectIndext = r.Next(Size - 0) + 0;
-            */
-            Title.Text = "粉红";
-            RGB.Text = "RGB:255,179,167";
-            CMYK.Text = "CMYK:0,37,26,0";
-            des.Text = "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色。";
+            int randomObjectIndext = r.Next(156 - 0) + 0;
+            var res = await SampleDataSource.GetGroupAsync("Group-1");
+            var trends = res.Items[randomObjectIndext];
+            //int Size = trends.Count;
+
+           var item = trends;
+
+            Title.Text = item.Title;
+            RGB.Text = item.Subtitle;
+            CMYK.Text = item.Content;
+            des.Text = '“'+ item.Description + '”';
+            var itemColor = item.Color;
             var Brush = new SolidColorBrush();
-            Brush.Color = Color.FromArgb(255, 255, 179, 167);
+            Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+                Convert.ToByte(itemColor.Substring(3, 2), 16),
+                Convert.ToByte(itemColor.Substring(5, 2), 16),
+                Convert.ToByte(itemColor.Substring(7, 2), 16));
             Hub.Background = Brush;
         }
         #endregion
