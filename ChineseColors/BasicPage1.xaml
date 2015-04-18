@@ -36,8 +36,8 @@
                 <LineBreak/>资料来源：《中国传统色彩名录》
                 <LineBreak/>开发者：Mukosame
             </TextBlock>
-            <Button Content="给我发邮件" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,11,182.667,0" Height="78" BorderThickness="0" Background="#FFB75056" Click="email"/>
-            <Button Content="我的其他应用" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,33,182.667,0" Height="78" BorderThickness="0" Background="#FF81161C" Click="otherapp"/>
+            <Button Content="给我发邮件" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,12,182.667,0" Height="77" BorderThickness="0" Background="#FFB75056" Click="email"/>
+            <Button Content="我的其他应用" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,33,182.667,0" Height="77" BorderThickness="0" Background="#FF81161C" Click="otherapp"/>
 
             </StackPanel>
 

@@ -137,7 +137,7 @@ namespace ChineseColors
             Title.Text = ((SampleDataItem)e.ClickedItem).Title;
             RGB.Text = ((SampleDataItem)e.ClickedItem).Subtitle;
             CMYK.Text = ((SampleDataItem)e.ClickedItem).Content;
-            des.Text ='“' + ((SampleDataItem)e.ClickedItem).Description + '”';
+            des.Text =((SampleDataItem)e.ClickedItem).Description;
 
             changeColorAnimation.To = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
                 Convert.ToByte(itemColor.Substring(3, 2), 16),
@@ -226,25 +226,50 @@ namespace ChineseColors
         //not finished
         private async void InitRandom()
         {
-            Random r = new Random();
-            int randomObjectIndext = r.Next(156 - 0) + 0;
-            var res = await SampleDataSource.GetGroupAsync("Group-1");
-            var trends = res.Items[randomObjectIndext];
-            //int Size = trends.Count;
-
-           var item = trends;
-
-            Title.Text = item.Title;
-            RGB.Text = item.Subtitle;
-            CMYK.Text = item.Content;
-            des.Text = '“'+ item.Description + '”';
-            var itemColor = item.Color;
-            var Brush = new SolidColorBrush();
-            Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
-                Convert.ToByte(itemColor.Substring(3, 2), 16),
-                Convert.ToByte(itemColor.Substring(5, 2), 16),
-                Convert.ToByte(itemColor.Substring(7, 2), 16));
+                         /*
+            Title.Text = "粉红";
+            RGB.Text = "RGB:255,179,167";
+            CMYK.Text = "CMYK:0,37,26,0";
+            des.Text = "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色";
+            Brush.Color = Color.FromArgb(255, 255, 179, 167);
             Hub.Background = Brush;
+             */
+            var Brush = new SolidColorBrush();
+
+            Random r = new Random();
+            int randomObjectIndext = r.Next(157);
+//            SampleDataGroup res = new SampleDataGroup(null,null,null,null,null);
+            var res = await SampleDataSource.GetGroupAsync("Group-1");
+            try
+            {
+                var item = res.Items.ElementAtOrDefault(randomObjectIndext);
+                //int Size = trends.Count;
+                //var item = trend;
+                //Title.Text = item.ToString();
+                Title.Text = item.Title;
+                RGB.Text = item.Subtitle;
+                CMYK.Text = item.Content; 
+                des.Text = item.Description;
+                var itemColor = item.Color;
+                // var Brush = new SolidColorBrush();
+                Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+                    Convert.ToByte(itemColor.Substring(3, 2), 16),
+                    Convert.ToByte(itemColor.Substring(5, 2), 16),
+                    Convert.ToByte(itemColor.Substring(7, 2), 16));
+                Hub.Background = Brush;
+            }
+            catch (System.NullReferenceException)
+            {
+                Title.Text = "豆青";
+                RGB.Text = "RGB:150,206,84";
+                CMYK.Text = "CMYK:45,0,87,0";
+                des.Text = "豆青：浅青绿色";
+                Brush.Color = Color.FromArgb(255, 255, 179, 167);
+                Hub.Background = Brush;
+            }
+            
+             
+             
         }
         #endregion
     }

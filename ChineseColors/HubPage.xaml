@@ -46,10 +46,10 @@
     <!--底部APP Bar-->
     <Page.BottomAppBar>
         <CommandBar ClosedDisplayMode="Minimal" Background="#33000000" BorderBrush="{x:Null}">
-            <AppBarButton Icon="CellPhone" Label="锁屏" Click="aclick"/>
+            <!--AppBarButton Icon="CellPhone" Label="锁屏" Click="aclick"/-->
             <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
-            <AppBarButton Icon="FontColor" Label="变色" Click="ChangeForeground" />
+            <AppBarButton Icon="FontColor" Label="换色" Click="ChangeForeground" />
             
         </CommandBar>
     </Page.BottomAppBar>

@@ -196,6 +196,13 @@
     <MainPackageIdentityName>31979Mukosame.173590CC2FC62</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.42999BF01CF6F</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.42957904A425E</MainPackageIdentityName>
+    <MainPackageIdentityName>31979Mukosame.120910FAAB4BF</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://dev.windowsphone.com/AppSubmission/AssociationLanding?windowsProductId=a7075754-ab71-408c-b613-3e294d86cfdc" />
+  <PackageInfoList LandingUrl="https://dev.windowsphone.com/AppSubmission/AssociationLanding?windowsProductId=a7075754-ab71-408c-b613-3e294d86cfdc">
+    <PackageInfo>
+      <OsMinVersion>6.3.0.0</OsMinVersion>
+      <PackageArchitecture>neutral</PackageArchitecture>
+      <PackageMaxArchitectureVersion>1.1.0.1</PackageMaxArchitectureVersion>
+    </PackageInfo>
+  </PackageInfoList>
 </StoreAssociation>

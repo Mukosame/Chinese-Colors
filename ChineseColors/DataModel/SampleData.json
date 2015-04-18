@@ -14,7 +14,7 @@
 
   "Content": "CMYK:0,37,26,0",
   "Color": "#FFffb3a7",
-  "Description" : "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色。"
+  "Description" : "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色"
 },
 {
   "UniqueId": "rgb(237, 87, 54)",
@@ -23,7 +23,7 @@
 
   "Content": "CMYK:1,81,87,0",
   "Color": "#FFed5736",
-  "Description" : "妃红色：古同“绯”，粉红色。杨妃色 湘妃色 粉红皆同义。"
+  "Description" : "妃红色：古同“绯”，粉红色。杨妃色 湘妃色 粉红皆同义"
 },
 {
   "UniqueId": "rgb(240, 0, 86)",
@@ -32,7 +32,7 @@
 
   "Content": "CMYK:0,100,53,0",
   "Color": "#FFf00056",
-  "Description" : "品红：比大红浅的红色。"
+  "Description" : "品红：比大红浅的红色"
 },
 {
   "UniqueId": "rgb(244, 121, 131)",
@@ -41,7 +41,7 @@
 
   "Content": "CMYK:0,66,34,0",
   "Color": "#FFf47983",
-  "Description" : "桃红，桃花的颜色，比粉红略鲜润的颜色。 "
+  "Description" : "桃红，桃花的颜色，比粉红略鲜润的颜色"
 },
 {
   "UniqueId": "rgb(219, 90, 107)",
@@ -50,7 +50,7 @@
 
   "Content": "CMYK:10,79,47,0",
   "Color": "#FFdb5a6b",
-  "Description" : "海棠红，淡紫红色、较桃红色深一些，是非常妩媚娇艳的颜色。 "
+  "Description" : "海棠红，淡紫红色、较桃红色深一些，是非常妩媚娇艳的颜色"
 },
 {
   "UniqueId": "rgb(242, 12, 0)",
@@ -59,7 +59,7 @@
 
   "Content": "CMYK:0,100,100,0",
   "Color": "#FFf20c00",
-  "Description" : "石榴红：石榴花的颜色，高色度和纯度的红色。 "
+  "Description" : "石榴红：石榴花的颜色，高色度和纯度的红色"
 },
 {
   "UniqueId": "rgb(201, 55, 86)",
@@ -68,7 +68,7 @@
 
   "Content": "CMYK:16,93,57,3",
   "Color": "#FFc93756",
-  "Description" : "樱桃色：鲜红色。 "
+  "Description" : "樱桃色：鲜红色"
 },
 {
   "UniqueId": "rgb(240, 86, 84)",
@@ -77,7 +77,7 @@
 
   "Content": "CMYK:0,81,65,0",
   "Color": "#FFf05654",
-  "Description" : "银红：银朱和粉红色颜料配成的颜色。多用来形容有光泽的各种红色，尤指有光泽浅红。 "
+  "Description" : "银红：银朱和粉红色颜料配成的颜色。多用来形容有光泽的各种红色，尤指有光泽浅红"
 },
 {
   "UniqueId": "rgb(255, 33, 33)",
@@ -86,7 +86,7 @@
 
   "Content": "CMYK:0,96,92,0",
   "Color": "#FFff2121",
-  "Description" : "大红：正红色，三原色中的红，传统的中国红，又称绛色。 "
+  "Description" : "大红：正红色，三原色中的红，传统的中国红，又称绛色"
 },
 {
   "UniqueId": "rgb(140, 67, 86)",
@@ -95,7 +95,7 @@
 
   "Content": "CMYK:37,81,50,20",
   "Color": "#FF8c4356",
-  "Description" : "绛紫：紫中略带红的颜色。 "
+  "Description" : "绛紫：紫中略带红的颜色"
 },
 {
   "UniqueId": "rgb(200, 60, 35)",
@@ -104,7 +104,7 @@
 
   "Content": "CMYK:15,90,100,5",
   "Color": "#FFc83c23",
-  "Description" : "绯红：艳丽的深红。 "
+  "Description" : "绯红：艳丽的深红"
 },
 {
   "UniqueId": "rgb(157, 41, 51)",
@@ -113,7 +113,7 @@
 
   "Content": "CMYK:26,95,80,21",
   "Color": "#FF9d2933",
-  "Description" : "胭脂：1，女子装扮时用的胭脂的颜色。 2，国画暗红色颜料 。 "
+  "Description" : "胭脂：1，女子装扮时用的胭脂的颜色。 2，国画暗红色颜料 "
 },
 {
   "UniqueId": "rgb(255, 76, 0)",
@@ -122,7 +122,7 @@
 
   "Content": "CMYK:0,84,100,0",
   "Color": "#FFff4c00",
-  "Description" : "朱红：朱砂的颜色，比大红活泼，也称铅朱朱色丹色。 "
+  "Description" : "朱红：朱砂的颜色，比大红活泼，也称铅朱朱色丹色"
 },
 {
   "UniqueId": "rgb(255, 78, 32)",
@@ -140,7 +140,7 @@
 
   "Content": "CMYK:0,83,86,0​​",
   "Color": "#FFf35336",
-  "Description" : "彤：赤色。"
+  "Description" : "彤：赤色"
 },
 {
   "UniqueId": "rgb(203, 58, 86)",
@@ -149,7 +149,7 @@
 
   "Content": "CMYK:15,92,58,2",
   "Color": "#FFcb3a56",
-  "Description" : "茜色：茜草染的色彩，呈深红色。"
+  "Description" : "茜色：茜草染的色彩，呈深红色"
 },
 {
   "UniqueId": "rgb(255, 45, 81)",
@@ -158,7 +158,7 @@
 
   "Content": "CMYK:0,93,60,0",
   "Color": "#FFff2d51",
-  "Description" : "火红：火焰的红色，赤色。"
+  "Description" : "火红：火焰的红色，赤色"
 },
 {
   "UniqueId": "rgb(201, 31, 55)",
@@ -167,7 +167,7 @@
 
   "Content": "CMYK:14,100,83,4",
   "Color": "#FFc91f37",
-  "Description" : "赫赤：深红，火红。泛指赤色、火红色。 "
+  "Description" : "赫赤：深红，火红。泛指赤色、火红色"
 },
 {
   "UniqueId": "rgb(239, 122, 130)",
@@ -176,7 +176,7 @@
 
   "Content": "CMYK:2,65,36,0",
   "Color": "#FFef7a82",
-  "Description" : "嫣红：鲜艳的红色。"
+  "Description" : "嫣红：鲜艳的红色"
 },
 {
   "UniqueId": "rgb(255, 0, 151)",
@@ -185,7 +185,7 @@
 
   "Content": "CMYK:0,0,96,0",
   "Color": "#FFff0097",
-  "Description" : "洋红：色橘红。"
+  "Description" : "洋红：色橘红"
 },
 {
   "UniqueId": "rgb(255, 51, 0)",
@@ -194,7 +194,7 @@
 
   "Content": "CMYK:0,92,100,0",
   "Color": "#FFff3300",
-  "Description" : "炎：引申为红色。 "
+  "Description" : "炎：引申为红色"
 },
 {
   "UniqueId": "rgb(195, 39, 43)",
@@ -203,7 +203,7 @@
 
   "Content": "CMYK:16,98,95,6",
   "Color": "#FFc3272b",
-  "Description" : "赤：本义火的颜色，即红色。"
+  "Description" : "赤：本义火的颜色，即红色"
 },
 {
   "UniqueId": "rgb(169, 129, 117)",
@@ -212,7 +212,7 @@
 
   "Content": "CMYK:33,49,50,5",
   "Color": "#FFa98175",
-  "Description" : "绾：绛色；浅绛色。 "
+  "Description" : "绾：绛色；浅绛色"
 },
 {
   "UniqueId": "rgb(195, 33, 54)",
@@ -230,7 +230,7 @@
 
   "Content": "CMYK:26,63,59,7",
   "Color": "#FFb36d61",
-  "Description" : "檀：浅红色，浅绛色。 "
+  "Description" : "檀：浅红色，浅绛色"
 },
 {
   "UniqueId": "rgb(190, 0, 47)",
@@ -239,7 +239,7 @@
 
   "Content": "CMYK:17,100,86,8",
   "Color": "#FFbe002f",
-  "Description" : "殷红：发黑的红色。 "
+  "Description" : "殷红：发黑的红色"
 },
 {
   "UniqueId": "rgb(220, 48, 35)",
@@ -266,7 +266,7 @@
 
   "Content": "CMYK:3,0,83,0",
   "Color": "#FFfff143",
-  "Description" : "鹅黄：淡黄色。"
+  "Description" : "鹅黄：淡黄色"
 },
 {
   "UniqueId": "rgb(250, 255, 114)",
@@ -275,7 +275,7 @@
 
   "Content": "CMYK:6,0,67,0",
   "Color": "#FFfaff72",
-  "Description" : "鸭黄：小鸭毛的黄色。"
+  "Description" : "鸭黄：小鸭毛的黄色"
 },
 {
   "UniqueId": "rgb(234, 255, 86)",
@@ -284,7 +284,7 @@
 
   "Content": "CMYK:13,0,80,0",
   "Color": "#FFeaff56",
-  "Description" : "樱草色：淡黄色。"
+  "Description" : "樱草色：淡黄色"
 },
 {
   "UniqueId": "rgb(255, 166, 49)",
@@ -293,7 +293,7 @@
 
   "Content": "CMYK:0,41,90,0",
   "Color": "#FFffa631",
-  "Description" : "杏黄：成熟杏子的黄色。"
+  "Description" : "杏黄：成熟杏子的黄色"
 },
 {
   "UniqueId": "rgb(255, 140, 49)",
@@ -302,7 +302,7 @@
 
   "Content": "CMYK:0,55,89,0",
   "Color": "#FFff8c31",
-  "Description" : "杏红：成熟杏子偏红色的一种颜色。"
+  "Description" : "杏红：成熟杏子偏红色的一种颜色"
 },
 {
   "UniqueId": "rgb(255, 137, 54)",
@@ -311,7 +311,7 @@
 
   "Content": "CMYK:0,57,86,0​​",
   "Color": "#FFff8936",
-  "Description" : "橘黄：柑橘的黄色。 "
+  "Description" : "橘黄：柑橘的黄色"
 },
 {
   "UniqueId": "rgb(255, 164, 0)",
@@ -338,7 +338,7 @@
 
   "Content": "CMYK:0,24,63,0",
   "Color": "#FFffc773",
-  "Description" : "姜黄：中药名。别名黄姜。为姜科植物姜黄的根茎。又指人脸色不正,呈黄白色。"
+  "Description" : "姜黄：中药名。别名黄姜。为姜科植物姜黄的根茎。又指人脸色不正,呈黄白色"
 },
 {
   "UniqueId": "rgb(240, 194, 57)",
@@ -347,7 +347,7 @@
 
   "Content": "CMYK:6,23,90,0",
   "Color": "#FFf0c239",
-  "Description" : "缃色：浅黄色。 "
+  "Description" : "缃色：浅黄色"
 },
 {
   "UniqueId": "rgb(250, 140, 53)",
@@ -356,7 +356,7 @@
 
   "Content": "CMYK:0,55,88,0",
   "Color": "#FFfa8c35",
-  "Description" : "橙色：界于红色和黄色之间的混合色。 "
+  "Description" : "橙色：界于红色和黄色之间的混合色"
 },
 {
   "UniqueId": "rgb(179, 92, 68)",
@@ -365,7 +365,7 @@
 
   "Content": "CMYK:23,72,77,10",
   "Color": "#FFb35c44",
-  "Description" : "茶色：一种比栗色稍红的棕橙色至浅棕色。"
+  "Description" : "茶色：一种比栗色稍红的棕橙色至浅棕色"
 },
 {
   "UniqueId": "rgb(168, 132, 98)",
@@ -374,7 +374,7 @@
 
   "Content": "CMYK:32,46,65,7",
   "Color": "#FFa88462",
-  "Description" : "驼色：一种比哢叽色稍红而微淡、比肉桂色黄而稍淡和比核桃棕色黄而暗的浅黄棕色。"
+  "Description" : "驼色：一种比哢叽色稍红而微淡、比肉桂色黄而稍淡和比核桃棕色黄而暗的浅黄棕色"
 },
 {
   "UniqueId": "rgb(200, 155, 64)",
@@ -383,7 +383,7 @@
 
   "Content": "CMYK:22,38,90,2",
   "Color": "#FFc89b40",
-  "Description" : "昏黄：形容天色、灯光等呈幽暗的黄色。"
+  "Description" : "昏黄：形容天色、灯光等呈幽暗的黄色"
 },
 {
   "UniqueId": "rgb(96, 40, 30)",
@@ -392,7 +392,7 @@
 
   "Content": "CMYK:37,82,82,52",
   "Color": "#FF60281e",
-  "Description" : "栗色：栗壳的颜色。即紫黑色。"
+  "Description" : "栗色：栗壳的颜色。即紫黑色"
 },
 {
   "UniqueId": "rgb(178, 93, 37)",
@@ -401,7 +401,7 @@
 
   "Content": "CMYK:23,70,100,11",
   "Color": "#FFb25d25",
-  "Description" : "棕色：棕毛的颜色,即褐色。 1，在红色和黄色之间的任何一种颜色2，适中的暗淡和适度的浅黑。 "
+  "Description" : "棕色：棕毛的颜色,即褐色。 1，在红色和黄色之间的任何一种颜色2，适中的暗淡和适度的浅黑"
 },
 {
   "UniqueId": "rgb(130, 113, 0)",
@@ -410,7 +410,7 @@
 
   "Content": "CMYK:46,44,100,19",
   "Color": "#FF827100",
-  "Description" : "棕绿：绿中泛棕色的一种颜色。 "
+  "Description" : "棕绿：绿中泛棕色的一种颜色"
 },
 {
   "UniqueId": "rgb(124, 75, 0)",
@@ -419,7 +419,7 @@
 
   "Content": "CMYK:37,66,100,34",
   "Color": "#FF7c4b00",
-  "Description" : "棕黑：深​​棕色。 "
+  "Description" : "棕黑：深​​棕色"
 },
 {
   "UniqueId": "rgb(155, 68, 0)",
@@ -428,7 +428,7 @@
 
   "Content": "CMYK:27,79,100,23",
   "Color": "#FF9b4400",
-  "Description" : "棕红：红褐色。 "
+  "Description" : "棕红：红褐色"
 },
 {
   "UniqueId": "rgb(174, 112, 0)",
@@ -437,7 +437,7 @@
 
   "Content": "CMYK:27,57,100,11",
   "Color": "#FFae7000",
-  "Description" : "棕黄：浅褐色。 "
+  "Description" : "棕黄：浅褐色"
 },
 {
   "UniqueId": "rgb(149, 85, 57)",
@@ -446,7 +446,7 @@
 
   "Content": "CMYK:31,69,81,22",
   "Color": "#FF955539",
-  "Description" : "赭色：红色、赤红色。古人用以饰面。"
+  "Description" : "赭色：红色、赤红色。古人用以饰面"
 },
 {
   "UniqueId": "rgb(202, 105, 36)",
@@ -455,7 +455,7 @@
 
   "Content": "CMYK:16,68,100,4",
   "Color": "#FFca6924",
-  "Description" : ""
+  "Description" : "琥珀：同寻常琥珀的颜色。介于黄色和咖啡色之间"
 },
 {
   "UniqueId": "rgb(110, 81, 30)",
@@ -473,7 +473,7 @@
 
   "Content": "CMYK:18,29,57,0",
   "Color": "#FFd3b17d",
-  "Description" : "枯黄：干枯焦黄。"
+  "Description" : "枯黄：干枯焦黄"
 },
 {
   "UniqueId": "rgb(226, 156, 69)",
@@ -482,7 +482,7 @@
 
   "Content": "CMYK:10,42,84,0",
   "Color": "#FFe29c45",
-  "Description" : "黄栌：一种落叶灌木，花黄绿色,叶子秋天变成红色。木材黄色可做染料。 "
+  "Description" : "黄栌：一种落叶灌木，花黄绿色,叶子秋天变成红色。木材黄色可做染料"
 },
 {
   "UniqueId": "rgb(137, 108, 57)",
@@ -491,7 +491,7 @@
 
   "Content": "CMYK:40,50,87,21",
   "Color": "#FF896c39",
-  "Description" : "秋色：1，中常橄榄棕色,它比一般橄榄棕色稍暗,且稍稍绿些。 2，古以秋为金,其色白,故代指白色。 "
+  "Description" : "秋色：1，中常橄榄棕色,它比一般橄榄棕色稍暗,且稍稍绿些。 2，古以秋为金,其色白,故代指白色"
 },
 {
   "UniqueId": "rgb(217, 182, 17)",
@@ -581,7 +581,7 @@
 
   "Content": "CMYK:78,0,100,0",
   "Color": "#FF00bc12",
-  "Description" : "油绿：光润而浓绿的颜色。以上几种绿色都是明亮可爱的色彩。 "
+  "Description" : "油绿：光润而浓绿的颜色。以上几种绿色都是明亮可爱的色彩"
 },
 {
   "UniqueId": "rgb(12, 137, 24)",
@@ -599,7 +599,7 @@
 
   "Content": "CMYK:67,0,50,0",
   "Color": "#FF1bd1a5",
-  "Description" : "碧色：1，青绿色。 2，青白色,浅蓝色。 "
+  "Description" : "碧色：1，青绿色。 2，青白色,浅蓝色"
 },
 {
   "UniqueId": "rgb(42, 221, 156)",
@@ -635,7 +635,7 @@
 
   "Content": "CMYK:63,0,90,0",
   "Color": "#FF40de5a",
-  "Description" : "草绿：绿而略黄的颜色。 "
+  "Description" : "草绿：绿而略黄的颜色"
 },
 {
   "UniqueId": "rgb(0, 224, 158)",
@@ -644,7 +644,7 @@
 
   "Content": "CMYK:64,0,56,0",
   "Color": "#FF00e09e",
-  "Description" : "青色：1，一类带绿的蓝色,中等深浅,高度饱和。 3，本义是蓝色。 4，一般指深绿色。 5，也指黑色。 6，四色印刷中的一色。 2，特指三补色中的一色。 "
+  "Description" : "青色：1，一类带绿的蓝色,中等深浅,高度饱和。 3，本义是蓝色。 4，一般指深绿色。 5，也指黑色。 6，四色印刷中的一色。 2，特指三补色中的一色"
 },
 {
   "UniqueId": "rgb(0, 224, 121)",
@@ -689,7 +689,7 @@
 
   "Content": "CMYK:72,58,54,36",
   "Color": "#FF424c50",
-  "Description" : "鸦青：鸦羽的颜色。即黑而带有紫绿光的颜色。 "
+  "Description" : "鸦青：鸦羽的颜色。即黑而带有紫绿光的颜色"
 },
 {
   "UniqueId": "rgb(0, 229, 0)",
@@ -698,7 +698,7 @@
 
   "Content": "CMYK:68,0,100,0",
   "Color": "#FF00e500",
-  "Description" : "绿色：1，在光谱中介于蓝与黄之间的那种颜色。 2，本义：青中带黄的颜色。 3，引申为黑色，如绿鬓：乌黑而光亮的鬓发。代指为青春年少的容颜。 "
+  "Description" : "绿色：1，在光谱中介于蓝与黄之间的那种颜色。 2，本义：青中带黄的颜色。 3，引申为黑色，如绿鬓：乌黑而光亮的鬓发。代指为青春年少的容颜"
 },
 {
   "UniqueId": "rgb(158, 208, 72)",
@@ -752,7 +752,7 @@
 
   "Content": "CMYK:34,0,29,0",
   "Color": "#FFa4e2c6",
-  "Description" : "艾绿：艾草的颜色。偏苍白的绿色。 "
+  "Description" : "艾绿：艾草的颜色。偏苍白的绿色"
 },
 {
   "UniqueId": "rgb(33, 166, 117)",
@@ -770,7 +770,7 @@
 
   "Content": "CMYK:89,29,88,17",
   "Color": "#FF057748",
-  "Description" : "松花绿：亦作“松花”、“松绿”。偏黑的深绿色,墨绿。 "
+  "Description" : "松花绿：亦作“松花”、“松绿”。偏黑的深绿色,墨绿"
 },
 {
   "UniqueId": "rgb(188, 230, 114)",
@@ -869,7 +869,7 @@
 
   "Content": "CMYK:77,78,35,22",
   "Color": "#FF4a4266",
-  "Description" : "黛：青黑色的颜料。古代女子用以画眉。 "
+  "Description" : "黛：青黑色的颜料。古代女子用以画眉"
 },
 {
   "UniqueId": "rgb(66, 102, 102)",
@@ -878,7 +878,7 @@
 
   "Content": "CMYK:76,46,53,22",
   "Color": "#FF426666",
-  "Description" : "黛绿：墨绿。 "
+  "Description" : "黛绿：墨绿"
 },
 {
   "UniqueId": "rgb(66, 80, 102)",
@@ -905,7 +905,7 @@
 
   "Content": "CMYK:56,79,0,0",
   "Color": "#FF8d4bbb",
-  "Description" : "紫色：蓝和红组成的颜色。古人以紫为祥瑞的颜色。代指与帝王、皇宫有关的事物。 "
+  "Description" : "紫色：蓝和红组成的颜色。古人以紫为祥瑞的颜色。代指与帝王、皇宫有关的事物"
 },
 {
   "UniqueId": "rgb(129, 84, 99)",
@@ -1039,7 +1039,7 @@
 
   "Content": "CMYK:58,32,25,1",
   "Color": "#FF7397ab",
-  "Description" : "苍黑：青黑色；灰黑色。"
+  "Description" : "苍黑：青黑色；灰黑色"
 },
 {
   "UniqueId": "rgb(209, 217, 224)",
@@ -1120,7 +1120,7 @@
 
   "Content": "CMYK:0,0,0,0",
   "Color": "#FFffffff",
-  "Description" : "精白：纯白，洁白，净白，粉白。 "
+  "Description" : "精白：纯白，洁白，净白，粉白"
 },
 {
   "UniqueId": "rgb(255, 251, 240)",
@@ -1309,7 +1309,7 @@
 
   "Content": "CMYK:75,68,67,90",
   "Color": "#FF000000",
-  "Description" : "黑色：亮度最低的非彩色的或消色差的物体的颜色；最暗的灰色；被认为特别属于那些既不能反射、又不能透过能使人感觉到的微小入射光的物体,任何亮度很低的物体颜色。 "
+  "Description" : "黑色：亮度最低的非彩色的或消色差的物体的颜色；最暗的灰色；被认为特别属于那些既不能反射、又不能透过能使人感觉到的微小入射光的物体,任何亮度很低的物体颜色"
 },
 {
   "UniqueId": "rgb(73, 49, 49)",
@@ -1327,7 +1327,7 @@
 
   "Content": "CMYK:61,67,69,70",
   "Color": "#FF312520",
-  "Description" : "煤黑像牙黑：都是黑，不过有冷暖之分。 "
+  "Description" : "煤黑像牙黑：都是黑，不过有冷暖之分"
 },
 {
   "UniqueId": "rgb(93, 81, 60)",
@@ -1354,7 +1354,7 @@
 
   "Content": "CMYK:63,58,33,9",
   "Color": "#FF6b6882",
-  "Description" : "黝：本义为淡黑色或微青黑色。 "
+  "Description" : "黝：本义为淡黑色或微青黑色"
 },
 {
   "UniqueId": "rgb(102, 87, 87)",
