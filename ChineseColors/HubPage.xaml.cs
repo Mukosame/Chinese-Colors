@@ -264,7 +264,7 @@ namespace ChineseColors
                 RGB.Text = "RGB:150,206,84";
                 CMYK.Text = "CMYK:45,0,87,0";
                 des.Text = "豆青：浅青绿色";
-                Brush.Color = Color.FromArgb(255, 255, 179, 167);
+                Brush.Color = Color.FromArgb(255, 150, 206, 84);
                 Hub.Background = Brush;
             }
             
