@@ -50,14 +50,14 @@
             <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
             <AppBarButton Icon="FontColor" Label="换色" Click="ChangeForeground" />
-            <!--AppBarButton Icon="Save" Label="图片" Click="SaveForeground" /-->
+            <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid x:Name="LayoutRoot">
 
         <Hub x:Name="Hub" Background="Transparent">
-            <HubSection x:Uid="HubSection3"
+            <HubSection x:Uid="HubSection3" Name="Hubsection1" 
                         DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
                 <DataTemplate>
                     <ListView                         

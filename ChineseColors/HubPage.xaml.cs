@@ -28,7 +28,6 @@ using Windows.UI;
 using Windows.ApplicationModel;
 using Windows.UI.Xaml.Media.Animation;//coloranimation
 using Windows.Data.Json;
-using Windows.Storage;
 using Windows.UI.Popups;
 
 
@@ -231,19 +230,26 @@ namespace ChineseColors
         private async void SaveForeground(object sender, RoutedEventArgs e)
         {
             RenderTargetBitmap bitmap = new RenderTargetBitmap();
-            await bitmap.RenderAsync(HubSection2);
+            //source
+            Hubsection1.Visibility = Visibility.Collapsed;
+            await bitmap.RenderAsync(Hub);
+            Hubsection1.Visibility = Visibility.Visible;
             var pixelBuffer = await bitmap.GetPixelsAsync();
 
-            IStorageFolder applicationFolder = ApplicationData.Current.LocalFolder;
             string filename = Title.Text+".png";
-            IStorageFile saveFile = await applicationFolder.CreateFileAsync(filename, CreationCollisionOption.OpenIfExists);
-
+            //IStorageFolder applicationFolder = ApplicationData.Current.LocalFolder;
+            //IStorageFile saveFile = await applicationFolder.CreateFileAsync(filename, CreationCollisionOption.OpenIfExists);
+            StorageFolder storageFolder = KnownFolders.PicturesLibrary;
+            var saveFile = await storageFolder.CreateFileAsync(filename,
+                CreationCollisionOption.ReplaceExisting);
+            /*
             using (Stream stream = await saveFile.OpenStreamForWriteAsync())
             {
                 byte[] content = Encoding.UTF8.GetBytes("1");
                 await stream.WriteAsync(content, 0, content.Length);
             }
-
+            await new MessageDialog("writing done").ShowAsync();
+            */
             //save now as picture
             using (var fileStream = await saveFile.OpenAsync(FileAccessMode.ReadWrite))
             {
@@ -260,8 +266,8 @@ namespace ChineseColors
 
                 await encoder.FlushAsync();
             }
-            
-            await new MessageDialog("当前颜色已保存，您可以进入相册中查看，并将其设为锁屏或背景").ShowAsync();
+
+            await new MessageDialog("当前颜色已保存，您可以进入相册中查看，并将其设为锁屏或背景", "保存成功").ShowAsync();
         }
 #endregion
         #region InitFeature
