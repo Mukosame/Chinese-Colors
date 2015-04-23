@@ -9,6 +9,11 @@ using Windows.ApplicationModel.Resources;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics.Display;
+//using Windows.Storage.Pickers;
+using Windows.Storage;
+//using Windows.Graphics.Display;
+using Windows.Graphics.Imaging;
+using System.Text;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
@@ -24,6 +29,8 @@ using Windows.ApplicationModel;
 using Windows.UI.Xaml.Media.Animation;//coloranimation
 using Windows.Data.Json;
 using Windows.Storage;
+using Windows.UI.Popups;
+
 
 // The Hub Application template is documented at http://go.microsoft.com/fwlink/?LinkId=391641
 
@@ -221,6 +228,41 @@ namespace ChineseColors
 
         static Color[] FontColor = { Colors.White, Colors.LightGray};
 
+        private async void SaveForeground(object sender, RoutedEventArgs e)
+        {
+            RenderTargetBitmap bitmap = new RenderTargetBitmap();
+            await bitmap.RenderAsync(HubSection2);
+            var pixelBuffer = await bitmap.GetPixelsAsync();
+
+            IStorageFolder applicationFolder = ApplicationData.Current.LocalFolder;
+            string filename = Title.Text+".png";
+            IStorageFile saveFile = await applicationFolder.CreateFileAsync(filename, CreationCollisionOption.OpenIfExists);
+
+            using (Stream stream = await saveFile.OpenStreamForWriteAsync())
+            {
+                byte[] content = Encoding.UTF8.GetBytes("1");
+                await stream.WriteAsync(content, 0, content.Length);
+            }
+
+            //save now as picture
+            using (var fileStream = await saveFile.OpenAsync(FileAccessMode.ReadWrite))
+            {
+                var encoder = await BitmapEncoder.CreateAsync(BitmapEncoder.PngEncoderId, fileStream);
+
+                encoder.SetPixelData(
+                    BitmapPixelFormat.Bgra8,
+                    BitmapAlphaMode.Ignore,
+                    (uint)bitmap.PixelWidth,
+                    (uint)bitmap.PixelHeight,
+                    DisplayInformation.GetForCurrentView().LogicalDpi,
+                    DisplayInformation.GetForCurrentView().LogicalDpi,
+                    pixelBuffer.ToArray());
+
+                await encoder.FlushAsync();
+            }
+            
+            await new MessageDialog("当前颜色已保存，您可以进入相册中查看，并将其设为锁屏或背景").ShowAsync();
+        }
 #endregion
         #region InitFeature
         //not finished
@@ -237,7 +279,7 @@ namespace ChineseColors
             var Brush = new SolidColorBrush();
 
             Random r = new Random();
-            int randomObjectIndext = r.Next(157);
+            int randomObjectIndext = r.Next(171);
 //            SampleDataGroup res = new SampleDataGroup(null,null,null,null,null);
             var res = await SampleDataSource.GetGroupAsync("Group-1");
             try
@@ -260,11 +302,11 @@ namespace ChineseColors
             }
             catch (System.NullReferenceException)
             {
-                Title.Text = "豆青";
-                RGB.Text = "RGB:150,206,84";
-                CMYK.Text = "CMYK:45,0,87,0";
-                des.Text = "豆青：浅青绿色";
-                Brush.Color = Color.FromArgb(255, 150, 206, 84);
+                Title.Text = "缃色";
+                RGB.Text = "RGB:240,194,57";
+                CMYK.Text = "CMYK:6,23,90,0";
+                des.Text = "缃色：浅黄色";
+                Brush.Color = Color.FromArgb(255, 240, 194, 57);
                 Hub.Background = Brush;
             }
             

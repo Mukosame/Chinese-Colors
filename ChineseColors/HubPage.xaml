@@ -50,7 +50,7 @@
             <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
             <AppBarButton Icon="FontColor" Label="换色" Click="ChangeForeground" />
-            
+            <!--AppBarButton Icon="Save" Label="图片" Click="SaveForeground" /-->
         </CommandBar>
     </Page.BottomAppBar>
 
@@ -74,7 +74,7 @@
             </HubSection>
 
             <!-- 解释页-->
-            <HubSection x:Uid="HubSectionAdd" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
+            <HubSection x:Uid="HubSectionAdd" Name="HubSection2" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
                 <DataTemplate>
 
                 </DataTemplate>

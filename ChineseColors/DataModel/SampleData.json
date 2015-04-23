@@ -941,7 +941,7 @@
 
   "Content": "CMYK:100,88,28,16",
   "Color": "#FF003371",
-  "Description" : "绀青绀紫：纯度较低的深紫色"
+  "Description" : "绀青/绀紫：纯度较低的深紫色"
 },
 {
   "UniqueId": "rgb(86, 0​​, 79)",
@@ -1419,14 +1419,128 @@
   "Color": "#FFa78e44",
   "Description" : "乌金：暗金色"
 },
-{
-  "UniqueId": "rgb(186, 202, 198)",
-  "Title":"老银",
-  "Subtitle": "RGB:186,202,198",
+        {
+            "UniqueId": "rgb(186, 202, 198)",
+            "Title": "老银",
+            "Subtitle": "RGB:186,202,198",
 
-  "Content": "CMYK:27,12,20,0",
-  "Color": "#FFbacac6",
-  "Description" : "老银：金属氧化后的色彩"}
+            "Content": "CMYK:27,12,20,0",
+            "Color": "#FFbacac6",
+            "Description": "老银：金属氧化后的色彩"
+        },
+        {
+  "UniqueId": "rgb(191, 36, 42)",
+  "Title":"银朱",
+  "Subtitle": "RGB:191,36,42",
+  "Content": "CMYK:18,99,95,7",
+ "Color": "#ffbf242a",
+  "Description" : "银朱：呈暗粉色"
+},
+{
+  "UniqueId": "rgb(157, 41, 51)",
+  "Title":"胭脂",
+  "Subtitle": "RGB:157,41,51",
+  "Content": "CMYK:26,95,80,21",
+ "Color": "#ff9d2933",
+  "Description" : "胭脂：色暗红。用红蓝花、茜草、紫梗三种植物制成的颜料，年代久则有褪色的现象"
+},
+{
+  "UniqueId": "rgb(255, 70, 31)",
+  "Title":"朱砂",
+  "Subtitle": "RGB:255,70,31",
+  "Content": "CMYK:0,87,94,0",
+ "Color": "#ffff461f",
+  "Description" : "朱砂：色朱红。用以画花卉、禽鸟​​羽毛（注：黄色成分微高于红色成分，色艳丽，需注意与背景色调和，多数情况下不大面积使用）"
+},
+{
+  "UniqueId": "rgb(243, 104, 56)",
+  "Title":"朱膘",
+  "Subtitle": "RGB:243,104,56",
+  "Content": "CMYK:0,74,86,0​​",
+ "Color": "#fff36838",
+  "Description" : "朱膘：色橘红。明度比朱砂高，彩度比朱砂低。用以画花卉"
+},
+{
+  "UniqueId": "rgb(132, 90, 51)",
+  "Title":"赭石",
+  "Subtitle": "RGB:132,90,51",
+  "Content": "CMYK:38,60,86,27",
+ "Color": "#ff845a33",
+  "Description" : "赭石：色红褐。用以画山石、树干、老枝叶"
+},
+{
+  "UniqueId": "rgb(22, 133, 169)",
+  "Title":"石青",
+  "Subtitle": "RGB:22,133,169",
+  "Content": "CMYK:83,36,22,1",
+ "Color": "#ff1685a9",
+  "Description" : "石青：色青，依深浅分为－头青、二青、三青。用以画叶或山石"
+},
+{
+  "UniqueId": "rgb(22, 169, 81)",
+  "Title":"石绿",
+  "Subtitle": "RGB:22,169,81",
+  "Content": "CMYK:81,5,96,0",
+ "Color": "#ff16a951",
+  "Description" : "石绿：依深浅分为－头绿、二绿、三绿。用以画山石、树干、叶、点苔等"
+},
+{
+  "UniqueId": "rgb(255, 242, 223)",
+  "Title":"白粉",
+  "Subtitle": "RGB:255,242,223",
+  "Content": "CMYK:0,4,11,0",
+ "Color": "#fffff2df",
+  "Description" : "白粉：亦称胡粉，色白，有蛤粉和铅粉两种。用以画白花、鸟，或调配其他颜料使用"
+},
+{
+  "UniqueId": "rgb(0, 52, 114)",
+  "Title":"花青",
+  "Subtitle": "RGB:0,52,114",
+  "Content": "CMYK:100,88,28,15",
+ "Color": "#ff003472",
+  "Description" : "花青：色藏青。用以画枝叶、山石、水波等。用蓼蓝或大蓝的叶子制成蓝靛，再提炼出来的青色颜料，蓝绿色或藏蓝色。用途相当广，可调藤黄成草绿或嫩绿色。广花，颜料"
+},
+{
+  "UniqueId": "rgb(255, 182, 30)",
+  "Title":"藤黄",
+  "Subtitle": "RGB:255,182,30",
+  "Content": "CMYK:0,32,97,0",
+"Color": "#ffffb61e",
+  "Description" : "藤黄：色明黄。用以画花卉、枝叶。藤黄：明黄色。南方热带林中的海藤树，常绿乔木，茎高达二十米，从其树皮凿孔，流出黄色树脂，以竹筒承接，干透可作国画颜料"
+},
+{
+  "UniqueId": "rgb(255, 198, 75)",
+  "Title":"雌黄",
+  "Subtitle": "RGB:255,198,75",
+  "Content": "CMYK:0,23,81,0",
+ "Color": "#ffffc64b",
+  "Description" : "雌黄：矿物名。成分是三硫化二砷(As2S3)橙黄色,半透明,可用来制颜料。古人用雌黄来涂改文字，因此称乱改文字、乱发议论为“妄下雌黄”，称不顾事实、随口乱说为“信口雌黄”"
+  
+},
+{
+  "UniqueId": "rgb(233, 187, 29)",
+  "Title":"雄黄",
+  "Subtitle": "RGB:233,187,29",
+  "Content": "CMYK:10,25,100,0",
+ "Color": "#ffe9bb1d",
+  "Description" : "雄黄：中药名。为含硫化砷的矿石。别名石黄、黄石"
+},
+{
+  "UniqueId": "rgb(255, 71, 119)",
+  "Title":"洋红",
+  "Subtitle": "RGB:255,71,119",
+  "Content": "CMYK:0,86,31,0",
+ "Color": "#ffff4777",
+  "Description" : "洋红：色橘红。用以画花卉"
+},
+{
+  "UniqueId": "rgb(80, 97, 109)",
+  "Title":"墨色",
+  "Subtitle": "RGB:80,97,109",
+  "Content": "CMYK:71,54,44,19",
+ "Color": "#ff50616d",
+  "Description" : "墨色：即黑色"
+}
     ]
   }
 
