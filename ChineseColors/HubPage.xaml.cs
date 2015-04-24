@@ -145,12 +145,13 @@ namespace ChineseColors
             Title.Text = ((SampleDataItem)e.ClickedItem).Title;
             RGB.Text = ((SampleDataItem)e.ClickedItem).Subtitle;
             CMYK.Text = ((SampleDataItem)e.ClickedItem).Content;
+            HEX.Text = ((SampleDataItem)e.ClickedItem).Color;
             des.Text =((SampleDataItem)e.ClickedItem).Description;
 
-            changeColorAnimation.To = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+            changeColorAnimation.To = Color.FromArgb(255,
+                Convert.ToByte(itemColor.Substring(1, 2), 16),
                 Convert.ToByte(itemColor.Substring(3, 2), 16),
-                Convert.ToByte(itemColor.Substring(5, 2), 16),
-                Convert.ToByte(itemColor.Substring(7, 2), 16));
+                Convert.ToByte(itemColor.Substring(5, 2), 16));
             //Hub.Background=Brush;
             animation.Children.Add(changeColorAnimation);
             animation.Begin();
@@ -199,21 +200,25 @@ namespace ChineseColors
             return temp;
         }
 
-        private void aclick(object sender, RoutedEventArgs e)
+        private async void Spectrum(object sender, RoutedEventArgs e)
         {
-            //设置壁纸
-
+            //设置绑定的数据集
+            var group = await SampleDataSource.GetGroupAsync("Group-2");
+            
+            Binding bond = new Binding();
+            bond.Source = group;
+            Hubsection1.SetBinding(DataContext, bond);
         }
-        private void cclick(object sender, RoutedEventArgs e)
-        {
-            //this.NavigationService.Navigate(new Uri("/Info_Page.xaml", UriKind.Relative));
-            Frame.Navigate(typeof(BasicPage1), appversion);
-        }
-
         private async void bclick(object sender, RoutedEventArgs e)
         {
             await Windows.System.Launcher.LaunchUriAsync(
     new Uri(string.Format("ms-windows-store:reviewapp?appid=" + "f840285e-0a27-49a5-81d6-78edf83e82b9")));
+        }
+
+        private void cclick(object sender, RoutedEventArgs e)
+        {
+            //this.NavigationService.Navigate(new Uri("/Info_Page.xaml", UriKind.Relative));
+            Frame.Navigate(typeof(BasicPage1), appversion);
         }
 
         private void ChangeForeground(object sender, RoutedEventArgs e)
@@ -223,6 +228,7 @@ namespace ChineseColors
             Title.Foreground = new SolidColorBrush(FontColor[flag]);
             RGB.Foreground = new SolidColorBrush(FontColor[flag]);
             CMYK.Foreground = new SolidColorBrush(FontColor[flag]);
+            HEX.Foreground = new SolidColorBrush(FontColor[flag]);
             des.Foreground = new SolidColorBrush(FontColor[flag]);
 
         }
@@ -304,8 +310,17 @@ namespace ChineseColors
 
             Random r = new Random();
             int randomObjectIndext = r.Next(171);
-//            SampleDataGroup res = new SampleDataGroup(null,null,null,null,null);
             var res = await SampleDataSource.GetGroupAsync("Group-1");
+//            SampleDataGroup res = new SampleDataGroup(null,null,null,null,null);
+            /*
+            if (randomObjectIndext > 171)
+            {
+                randomObjectIndext = randomObjectIndext - 171;
+                res = await SampleDataSource.GetGroupAsync("Group-2");
+            }
+            else
+            {                ;            }
+             * */
             try
             {
                 var item = res.Items.ElementAtOrDefault(randomObjectIndext);
@@ -316,12 +331,13 @@ namespace ChineseColors
                 RGB.Text = item.Subtitle;
                 CMYK.Text = item.Content; 
                 des.Text = item.Description;
+                HEX.Text = item.Color.ToString();
                 var itemColor = item.Color;
                 // var Brush = new SolidColorBrush();
-                Brush.Color = Color.FromArgb(Convert.ToByte(itemColor.Substring(1, 2), 16),
+                Brush.Color = Color.FromArgb(255,
+                    Convert.ToByte(itemColor.Substring(1, 2), 16),
                     Convert.ToByte(itemColor.Substring(3, 2), 16),
-                    Convert.ToByte(itemColor.Substring(5, 2), 16),
-                    Convert.ToByte(itemColor.Substring(7, 2), 16));
+                    Convert.ToByte(itemColor.Substring(5, 2), 16));
                 Hub.Background = Brush;
             }
             catch (System.NullReferenceException)
@@ -330,6 +346,7 @@ namespace ChineseColors
                 RGB.Text = "RGB:240,194,57";
                 CMYK.Text = "CMYK:6,23,90,0";
                 des.Text = "缃色：浅黄色";
+                HEX.Text = "#f0c239";
                 Brush.Color = Color.FromArgb(255, 240, 194, 57);
                 Hub.Background = Brush;
             }

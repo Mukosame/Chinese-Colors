@@ -1,0 +1,1424 @@
+{
+  "UniqueId": "rgb(255, 179, 167)",
+  "Title":"粉红",
+  "Subtitle": "RGB:255,179,167",
+
+  "Content": "CMYK:0,37,26,0",
+  "Color": "#FFffb3a7",
+  "Description" : "粉红，即浅红色。别称：妃色杨妃色湘妃色妃红色。"
+},
+{
+  "UniqueId": "rgb(237, 87, 54)",
+  "Title":"妃色",
+  "Subtitle": "RGB:237,87,54",
+
+  "Content": "CMYK:1,81,87,0",
+  "Color": "#FFed5736",
+  "Description" : "妃红色：古同“绯”，粉红色。杨妃色 湘妃色 粉红皆同义。"
+},
+{
+  "UniqueId": "rgb(240, 0, 86)",
+  "Title":"品红",
+  "Subtitle": "RGB:240,0,86",
+
+  "Content": "CMYK:0,100,53,0",
+  "Color": "#FFf00056",
+  "Description" : "品红：比大红浅的红色。"
+},
+{
+  "UniqueId": "rgb(244, 121, 131)",
+  "Title":"桃红",
+  "Subtitle": "RGB:244,121,131",
+
+  "Content": "CMYK:0,66,34,0",
+  "Color": "#FFf47983",
+  "Description" : "桃红，桃花的颜色，比粉红略鲜润的颜色。 "
+},
+{
+  "UniqueId": "rgb(219, 90, 107)",
+  "Title":"海棠红",
+  "Subtitle": "RGB:219,90,107",
+
+  "Content": "CMYK:10,79,47,0",
+  "Color": "#FFdb5a6b",
+  "Description" : "海棠红，淡紫红色、较桃红色深一些，是非常妩媚娇艳的颜色。 "
+},
+{
+  "UniqueId": "rgb(242, 12, 0)",
+  "Title":"石榴红",
+  "Subtitle": "RGB:242,12,0",
+
+  "Content": "CMYK:0,100,100,0",
+  "Color": "#FFf20c00",
+  "Description" : "石榴红：石榴花的颜色，高色度和纯度的红色。 "
+},
+{
+  "UniqueId": "rgb(201, 55, 86)",
+  "Title":"樱桃色",
+  "Subtitle": "RGB:201,55,86",
+
+  "Content": "CMYK:16,93,57,3",
+  "Color": "#FFc93756",
+  "Description" : "樱桃色：鲜红色。 "
+},
+{
+  "UniqueId": "rgb(240, 86, 84)",
+  "Title":"银红",
+  "Subtitle": "RGB:240,86,84",
+
+  "Content": "CMYK:0,81,65,0",
+  "Color": "#FFf05654",
+  "Description" : "银红：银朱和粉红色颜料配成的颜色。多用来形容有光泽的各种红色，尤指有光泽浅红。 "
+},
+{
+  "UniqueId": "rgb(255, 33, 33)",
+  "Title":"大红",
+  "Subtitle": "RGB:255,33,33",
+
+  "Content": "CMYK:0,96,92,0",
+  "Color": "#FFff2121",
+  "Description" : "大红：正红色，三原色中的红，传统的中国红，又称绛色。 "
+},
+{
+  "UniqueId": "rgb(140, 67, 86)",
+  "Title":"绛紫",
+  "Subtitle": "RGB:140,67,86",
+
+  "Content": "CMYK:37,81,50,20",
+  "Color": "#FF8c4356",
+  "Description" : "绛紫：紫中略带红的颜色。 "
+},
+{
+  "UniqueId": "rgb(200, 60, 35)",
+  "Title":"绯红",
+  "Subtitle": "RGB:200,60,35",
+
+  "Content": "CMYK:15,90,100,5",
+  "Color": "#FFc83c23",
+  "Description" : "绯红：艳丽的深红。 "
+},
+{
+  "UniqueId": "rgb(157, 41, 51)",
+  "Title":"胭脂",
+  "Subtitle": "RGB:157,41,51",
+
+  "Content": "CMYK:26,95,80,21",
+  "Color": "#FF9d2933",
+  "Description" : "胭脂：1，女子装扮时用的胭脂的颜色。 2，国画暗红色颜料 。 "
+},
+{
+  "UniqueId": "rgb(255, 76, 0)",
+  "Title":"朱红",
+  "Subtitle": "RGB:255,76,0",
+
+  "Content": "CMYK:0,84,100,0",
+  "Color": "#FFff4c00",
+  "Description" : "朱红：朱砂的颜色，比大红活泼，也称铅朱朱色丹色。 "
+},
+{
+  "UniqueId": "rgb(255, 78, 32)",
+  "Title":"丹",
+  "Subtitle": "RGB:255,78,32",
+
+  "Content": "CMYK:0,84,94,0",
+  "Color": "#FFff4e20",
+  "Description" : "丹：丹砂的鲜艳红色"
+},
+{
+  "UniqueId": "rgb(243, 83, 54)",
+  "Title":"彤",
+  "Subtitle": "RGB:243,83,54",
+
+  "Content": "CMYK:0,83,86,0​​",
+  "Color": "#FFf35336",
+  "Description" : "彤：赤色。"
+},
+{
+  "UniqueId": "rgb(203, 58, 86)",
+  "Title":"茜色",
+  "Subtitle": "RGB:203,58,86",
+
+  "Content": "CMYK:15,92,58,2",
+  "Color": "#FFcb3a56",
+  "Description" : "茜色：茜草染的色彩，呈深红色。"
+},
+{
+  "UniqueId": "rgb(255, 45, 81)",
+  "Title":"火红",
+  "Subtitle": "RGB:255,45,81",
+
+  "Content": "CMYK:0,93,60,0",
+  "Color": "#FFff2d51",
+  "Description" : "火红：火焰的红色，赤色。"
+},
+{
+  "UniqueId": "rgb(201, 31, 55)",
+  "Title":"赫赤",
+  "Subtitle": "RGB:201,31,55",
+
+  "Content": "CMYK:14,100,83,4",
+  "Color": "#FFc91f37",
+  "Description" : "赫赤：深红，火红。泛指赤色、火红色。 "
+},
+{
+  "UniqueId": "rgb(239, 122, 130)",
+  "Title":"嫣红",
+  "Subtitle": "RGB:239,122,130",
+
+  "Content": "CMYK:2,65,36,0",
+  "Color": "#FFef7a82",
+  "Description" : "嫣红：鲜艳的红色。"
+},
+{
+  "UniqueId": "rgb(255, 0, 151)",
+  "Title":"洋红",
+  "Subtitle": "RGB:255,0,151",
+
+  "Content": "CMYK:0,0,96,0",
+  "Color": "#FFff0097",
+  "Description" : "洋红：色橘红。"
+},
+{
+  "UniqueId": "rgb(255, 51, 0)",
+  "Title":"炎",
+  "Subtitle": "RGB:255,51,0",
+
+  "Content": "CMYK:0,92,100,0",
+  "Color": "#FFff3300",
+  "Description" : "炎：引申为红色。 "
+},
+{
+  "UniqueId": "rgb(195, 39, 43)",
+  "Title":"赤",
+  "Subtitle": "RGB:195,39,43",
+
+  "Content": "CMYK:16,98,95,6",
+  "Color": "#FFc3272b",
+  "Description" : "赤：本义火的颜色，即红色。"
+},
+{
+  "UniqueId": "rgb(169, 129, 117)",
+  "Title":"绾",
+  "Subtitle": "RGB:169,129,117",
+
+  "Content": "CMYK:33,49,50,5",
+  "Color": "#FFa98175",
+  "Description" : "绾：绛色；浅绛色。 "
+},
+{
+  "UniqueId": "rgb(195, 33, 54)",
+  "Title":"枣红",
+  "Subtitle": "RGB:195,33,54",
+
+  "Content": "CMYK:16,99,83,6",
+  "Color": "#FFc32136",
+  "Description" : "枣红：即深红"
+},
+{
+  "UniqueId": "rgb(179, 109, 97)",
+  "Title":"檀",
+  "Subtitle": "RGB:179,109,97",
+
+  "Content": "CMYK:26,63,59,7",
+  "Color": "#FFb36d61",
+  "Description" : "檀：浅红色，浅绛色。 "
+},
+{
+  "UniqueId": "rgb(190, 0, 47)",
+  "Title":"殷红",
+  "Subtitle": "RGB:190,0,47",
+
+  "Content": "CMYK:17,100,86,8",
+  "Color": "#FFbe002f",
+  "Description" : "殷红：发黑的红色。 "
+},
+{
+  "UniqueId": "rgb(220, 48, 35)",
+  "Title":"酡红",
+  "Subtitle": "RGB:220,48,35",
+
+  "Content": "CMYK:8,95,100,1",
+  "Color": "#FFdc3023",
+  "Description" : "酡红：像饮酒后脸上泛现的红色，泛指脸红"
+},
+{
+  "UniqueId": "rgb(249, 144, 111)",
+  "Title":"酡颜",
+  "Subtitle": "RGB:249,144,111",
+
+  "Content": "CMYK:0,53,55,0",
+  "Color": "#FFf9906f",
+  "Description" : "酡颜：饮酒脸红的样子。亦泛指脸红色"
+},
+{
+  "UniqueId": "rgb(255, 241, 67)",
+  "Title":"鹅黄",
+  "Subtitle": "RGB:255,241,67",
+
+  "Content": "CMYK:3,0,83,0",
+  "Color": "#FFfff143",
+  "Description" : "鹅黄：淡黄色。"
+},
+{
+  "UniqueId": "rgb(250, 255, 114)",
+  "Title":"鸭黄",
+  "Subtitle": "RGB:250,255,114",
+
+  "Content": "CMYK:6,0,67,0",
+  "Color": "#FFfaff72",
+  "Description" : "鸭黄：小鸭毛的黄色。"
+},
+{
+  "UniqueId": "rgb(234, 255, 86)",
+  "Title":"樱草色",
+  "Subtitle": "RGB:234,255,86",
+
+  "Content": "CMYK:13,0,80,0",
+  "Color": "#FFeaff56",
+  "Description" : "樱草色：淡黄色。"
+},
+{
+  "UniqueId": "rgb(255, 166, 49)",
+  "Title":"杏黄",
+  "Subtitle": "RGB:255,166,49",
+
+  "Content": "CMYK:0,41,90,0",
+  "Color": "#FFffa631",
+  "Description" : "杏黄：成熟杏子的黄色。"
+},
+{
+  "UniqueId": "rgb(255, 140, 49)",
+  "Title":"杏红",
+  "Subtitle": "RGB:255,140,​​49",
+
+  "Content": "CMYK:0,55,89,0",
+  "Color": "#FFff8c31",
+  "Description" : "杏红：成熟杏子偏红色的一种颜色。"
+},
+{
+  "UniqueId": "rgb(255, 137, 54)",
+  "Title":"橘黄",
+  "Subtitle": "RGB:255,137,54",
+
+  "Content": "CMYK:0,57,86,0​​",
+  "Color": "#FFff8936",
+  "Description" : "橘黄：柑橘的黄色。 "
+},
+{
+  "UniqueId": "rgb(255, 164, 0)",
+  "Title":"橙黄",
+  "Subtitle": "RGB:255,164,0",
+
+  "Content": "CMYK:0,41,100,0",
+  "Color": "#FFffa400",
+  "Description" : "橙黄：橙的黄色。 （现代感比较强。广告上用得较多）"
+},
+{
+  "UniqueId": "rgb(255, 117, 0)",
+  "Title":"橘红",
+  "Subtitle": "RGB:255,117,0",
+
+  "Content": "CMYK:0,67,100,0",
+  "Color": "#FFff7500",
+  "Description" : "橘红：柑橘皮所呈现的红色"
+},
+{
+  "UniqueId": "rgb(255, 199, 115)",
+  "Title":"姜黄",
+  "Subtitle": "RGB:255,199,115",
+
+  "Content": "CMYK:0,24,63,0",
+  "Color": "#FFffc773",
+  "Description" : "姜黄：中药名。别名黄姜。为姜科植物姜黄的根茎。又指人脸色不正,呈黄白色。"
+},
+{
+  "UniqueId": "rgb(240, 194, 57)",
+  "Title":"缃色",
+  "Subtitle": "RGB:240,194,57",
+
+  "Content": "CMYK:6,23,90,0",
+  "Color": "#FFf0c239",
+  "Description" : "缃色：浅黄色。 "
+},
+{
+  "UniqueId": "rgb(250, 140, 53)",
+  "Title":"橙色",
+  "Subtitle": "RGB:250,140,​​53",
+
+  "Content": "CMYK:0,55,88,0",
+  "Color": "#FFfa8c35",
+  "Description" : "橙色：界于红色和黄色之间的混合色。 "
+},
+{
+  "UniqueId": "rgb(179, 92, 68)",
+  "Title":"茶色",
+  "Subtitle": "RGB:179,92,68",
+
+  "Content": "CMYK:23,72,77,10",
+  "Color": "#FFb35c44",
+  "Description" : "茶色：一种比栗色稍红的棕橙色至浅棕色。"
+},
+{
+  "UniqueId": "rgb(168, 132, 98)",
+  "Title":"驼色",
+  "Subtitle": "RGB:168,132,98",
+
+  "Content": "CMYK:32,46,65,7",
+  "Color": "#FFa88462",
+  "Description" : "驼色：一种比哢叽色稍红而微淡、比肉桂色黄而稍淡和比核桃棕色黄而暗的浅黄棕色。"
+},
+{
+  "UniqueId": "rgb(200, 155, 64)",
+  "Title":"昏黄",
+  "Subtitle": "RGB:200,155,64",
+
+  "Content": "CMYK:22,38,90,2",
+  "Color": "#FFc89b40",
+  "Description" : "昏黄：形容天色、灯光等呈幽暗的黄色。"
+},
+{
+  "UniqueId": "rgb(96, 40, 30)",
+  "Title":"栗色",
+  "Subtitle": "RGB:96,40,30",
+
+  "Content": "CMYK:37,82,82,52",
+  "Color": "#FF60281e",
+  "Description" : "栗色：栗壳的颜色。即紫黑色。"
+},
+{
+  "UniqueId": "rgb(178, 93, 37)",
+  "Title":"棕色",
+  "Subtitle": "RGB:178,93,37",
+
+  "Content": "CMYK:23,70,100,11",
+  "Color": "#FFb25d25",
+  "Description" : "棕色：棕毛的颜色,即褐色。 1，在红色和黄色之间的任何一种颜色2，适中的暗淡和适度的浅黑。 "
+},
+{
+  "UniqueId": "rgb(130, 113, 0)",
+  "Title":"棕绿",
+  "Subtitle": "RGB:130,113,0",
+
+  "Content": "CMYK:46,44,100,19",
+  "Color": "#FF827100",
+  "Description" : "棕绿：绿中泛棕色的一种颜色。 "
+},
+{
+  "UniqueId": "rgb(124, 75, 0)",
+  "Title":"棕黑",
+  "Subtitle": "RGB:124,75,0",
+
+  "Content": "CMYK:37,66,100,34",
+  "Color": "#FF7c4b00",
+  "Description" : "棕黑：深​​棕色。 "
+},
+{
+  "UniqueId": "rgb(155, 68, 0)",
+  "Title":"棕红",
+  "Subtitle": "RGB:155,68,0",
+
+  "Content": "CMYK:27,79,100,23",
+  "Color": "#FF9b4400",
+  "Description" : "棕红：红褐色。 "
+},
+{
+  "UniqueId": "rgb(174, 112, 0)",
+  "Title":"棕黄",
+  "Subtitle": "RGB:174,112,0",
+
+  "Content": "CMYK:27,57,100,11",
+  "Color": "#FFae7000",
+  "Description" : "棕黄：浅褐色。 "
+},
+{
+  "UniqueId": "rgb(149, 85, 57)",
+  "Title":"赭色",
+  "Subtitle": "RGB:149,85,57",
+
+  "Content": "CMYK:31,69,81,22",
+  "Color": "#FF955539",
+  "Description" : "赭色：红色、赤红色。古人用以饰面。"
+},
+{
+  "UniqueId": "rgb(202, 105, 36)",
+  "Title":"琥珀",
+  "Subtitle": "RGB:202,105,36",
+
+  "Content": "CMYK:16,68,100,4",
+  "Color": "#FFca6924",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(110, 81, 30)",
+  "Title":"褐色",
+  "Subtitle": "RGB:110,81,30",
+
+  "Content": "CMYK:44,58,100,36",
+  "Color": "#FF6e511e",
+  "Description" : "褐色： 黄黑色"
+},
+{
+  "UniqueId": "rgb(211, 177, 125)",
+  "Title":"枯黄",
+  "Subtitle": "RGB:211,177,125",
+
+  "Content": "CMYK:18,29,57,0",
+  "Color": "#FFd3b17d",
+  "Description" : "枯黄：干枯焦黄。"
+},
+{
+  "UniqueId": "rgb(226, 156, 69)",
+  "Title":"黄栌",
+  "Subtitle": "RGB:226,156,69",
+
+  "Content": "CMYK:10,42,84,0",
+  "Color": "#FFe29c45",
+  "Description" : "黄栌：一种落叶灌木，花黄绿色,叶子秋天变成红色。木材黄色可做染料。 "
+},
+{
+  "UniqueId": "rgb(137, 108, 57)",
+  "Title":"秋色",
+  "Subtitle": "RGB:137,108,57",
+
+  "Content": "CMYK:40,50,87,21",
+  "Color": "#FF896c39",
+  "Description" : "秋色：1，中常橄榄棕色,它比一般橄榄棕色稍暗,且稍稍绿些。 2，古以秋为金,其色白,故代指白色。 "
+},
+{
+  "UniqueId": "rgb(217, 182, 17)",
+  "Title":"秋香色",
+  "Subtitle": "RGB:217,182,17",
+
+  "Content": "CMYK:17,25,100,0",
+  "Color": "#FFd9b611",
+  "Description" : "秋香色：浅橄榄色浅黄绿色。 （注：直接在Y中掺入k10~30可得到不同浓淡的该类色彩）"
+},
+{
+  "UniqueId": "rgb(189, 221, 34)",
+  "Title":"嫩绿",
+  "Subtitle": "RGB:189,221,34",
+
+  "Content": "CMYK:31,0,100,0",
+  "Color": "#FFbddd22",
+  "Description" : "嫩绿：像刚长出的嫩叶的浅绿色"
+},
+{
+  "UniqueId": "rgb(201, 221, 34)",
+  "Title":"柳黄",
+  "Subtitle": "RGB:201,221,34",
+
+  "Content": "CMYK:26,0,100,0",
+  "Color": "#FFc9dd22",
+  "Description" : "柳黄：像柳树芽那样的浅黄色"
+},
+{
+  "UniqueId": "rgb(175, 221, 34)",
+  "Title":"柳绿",
+  "Subtitle": "RGB:175,221,34",
+
+  "Content": "CMYK:36,0,100,0",
+  "Color": "#FFafdd22",
+  "Description" : "柳绿：柳叶的青绿色"
+},
+{
+  "UniqueId": "rgb(120, 146, 98)",
+  "Title":"竹青",
+  "Subtitle": "RGB:120,146,98",
+
+  "Content": "CMYK:56,28,73,7",
+  "Color": "#FF789262",
+  "Description" : "竹青：竹子的绿色"
+},
+{
+  "UniqueId": "rgb(163, 217, 0)",
+  "Title":"葱黄",
+  "Subtitle": "RGB:163,217,0",
+
+  "Content": "CMYK:41,0,100,0",
+  "Color": "#FFa3d900",
+  "Description" : "葱黄：黄绿色，嫩黄色"
+},
+{
+  "UniqueId": "rgb(158, 217, 0)",
+  "Title":"葱绿",
+  "Subtitle": "RGB:158,217,0",
+
+  "Content": "CMYK:43,0,100,0",
+  "Color": "#FF9ed900",
+  "Description" : "葱绿：1，浅绿又略显微黄的颜色2，草木青翠的样子"
+},
+{
+  "UniqueId": "rgb(14, 184, 58)",
+  "Title":"葱青",
+  "Subtitle": "RGB:14,184,58",
+
+  "Content": "CMYK:78,0,100,0",
+  "Color": "#FF0eb83a",
+  "Description" : "葱青：淡淡的青绿色"
+},
+{
+  "UniqueId": "rgb(10, 163, 68)",
+  "Title":"青葱",
+  "Subtitle": "RGB:10,163,68",
+
+  "Content": "CMYK:83,1,100,1",
+  "Color": "#FF0aa344",
+  "Description" : "青葱：翠绿色,形容植物浓绿"
+},
+{
+  "UniqueId": "rgb(0, 188, 18)",
+  "Title":"油绿",
+  "Subtitle": "RGB:0,188,18",
+
+  "Content": "CMYK:78,0,100,0",
+  "Color": "#FF00bc12",
+  "Description" : "油绿：光润而浓绿的颜色。以上几种绿色都是明亮可爱的色彩。 "
+},
+{
+  "UniqueId": "rgb(12, 137, 24)",
+  "Title":"绿沉",
+  "Subtitle": "RGB:12,137,24",
+
+  "Content": "CMYK:86,21,100,9",
+  "Color": "#FF0c8918",
+  "Description" : "绿沉：深绿"
+},
+{
+  "UniqueId": "rgb(27, 209, 165)",
+  "Title":"碧色",
+  "Subtitle": "RGB:27,209,165",
+
+  "Content": "CMYK:67,0,50,0",
+  "Color": "#FF1bd1a5",
+  "Description" : "碧色：1，青绿色。 2，青白色,浅蓝色。 "
+},
+{
+  "UniqueId": "rgb(42, 221, 156)",
+  "Title":"碧绿",
+  "Subtitle": "RGB:42,221,156",
+
+  "Content": "CMYK:63,0,56,0",
+  "Color": "#FF2add9c",
+  "Description" : "碧绿：鲜艳的青绿色"
+},
+{
+  "UniqueId": "rgb(72, 192, 163)",
+  "Title":"青碧",
+  "Subtitle": "RGB:72,192,163",
+
+  "Content": "CMYK:66,0,46,0",
+  "Color": "#FF48c0a3",
+  "Description" : "青碧：鲜艳的青蓝色"
+},
+{
+  "UniqueId": "rgb(61, 225, 173)",
+  "Title":"翡翠色",
+  "Subtitle": "RGB:61,225,173",
+
+  "Content": "CMYK:59,0,47,0",
+  "Color": "#FF3de1ad",
+  "Description" : "翡翠色：1，翡翠鸟羽毛的青绿色。 2，翡翠宝石的颜色。 (注：C-Y≧30
+  的系列色彩，多与白色配合以体现清新明丽感觉，与黑色配合效果不好：该色个性柔弱，会被黑色牵制)"
+},
+{
+  "UniqueId": "rgb(64, 222, 90)",
+  "Title":"草绿",
+  "Subtitle": "RGB:64,222,90",
+
+  "Content": "CMYK:63,0,90,0",
+  "Color": "#FF40de5a",
+  "Description" : "草绿：绿而略黄的颜色。 "
+},
+{
+  "UniqueId": "rgb(0, 224, 158)",
+  "Title":"青色",
+  "Subtitle": "RGB:0,224,158",
+
+  "Content": "CMYK:64,0,56,0",
+  "Color": "#FF00e09e",
+  "Description" : "青色：1，一类带绿的蓝色,中等深浅,高度饱和。 3，本义是蓝色。 4，一般指深绿色。 5，也指黑色。 6，四色印刷中的一色。 2，特指三补色中的一色。 "
+},
+{
+  "UniqueId": "rgb(0, 224, 121)",
+  "Title":"青翠",
+  "Subtitle": "RGB:0,224,121",
+
+  "Content": "CMYK:66,0,76,0",
+  "Color": "#FF00e079",
+  "Description" : "青翠：鲜绿 "
+},
+{
+  "UniqueId": "rgb(192, 235, 215)",
+  "Title":"青白",
+  "Subtitle": "RGB:192,235,215",
+
+  "Content": "CMYK:24,0,20,0",
+  "Color": "#FFc0ebd7",
+  "Description" : "青白：白而发青,尤指脸没有血色"
+},
+{
+  "UniqueId": "rgb(224, 238, 232)",
+  "Title":"鸭卵青",
+  "Subtitle": "RGB:224,238,232",
+
+  "Content": "CMYK:11,1,9,0",
+  "Color": "#FFe0eee8",
+  "Description" : "鸭卵青：淡青灰色，极淡的青绿色"
+},
+{
+  "UniqueId": "rgb(187, 205, 197)",
+  "Title":"蟹壳青",
+  "Subtitle": "RGB:187,205,197",
+
+  "Content": "CMYK:27,11,22,0",
+  "Color": "#FFbbcdc5",
+  "Description" : "蟹壳青：深灰绿色"
+},
+{
+  "UniqueId": "rgb(66, 76, 80)",
+  "Title":"鸦青",
+  "Subtitle": "RGB:66,76,80",
+
+  "Content": "CMYK:72,58,54,36",
+  "Color": "#FF424c50",
+  "Description" : "鸦青：鸦羽的颜色。即黑而带有紫绿光的颜色。 "
+},
+{
+  "UniqueId": "rgb(0, 229, 0)",
+  "Title":"绿色",
+  "Subtitle": "RGB:0,229,0",
+
+  "Content": "CMYK:68,0,100,0",
+  "Color": "#FF00e500",
+  "Description" : "绿色：1，在光谱中介于蓝与黄之间的那种颜色。 2，本义：青中带黄的颜色。 3，引申为黑色，如绿鬓：乌黑而光亮的鬓发。代指为青春年少的容颜。 "
+},
+{
+  "UniqueId": "rgb(158, 208, 72)",
+  "Title":"豆绿",
+  "Subtitle": "RGB:158,208,72",
+
+  "Content": "CMYK:43,0,92,0",
+  "Color": "#FF9ed048",
+  "Description" : "豆绿：浅黄绿色"
+},
+{
+  "UniqueId": "rgb(150, 206, 84)",
+  "Title":"豆青",
+  "Subtitle": "RGB:150,206,84",
+
+  "Content": "CMYK:45,0,87,0",
+  "Color": "#FF96ce54",
+  "Description" : "豆青：浅青绿色"
+},
+{
+  "UniqueId": "rgb(123, 207, 166)",
+  "Title":"石青",
+  "Subtitle": "RGB:123,207,166",
+
+  "Content": "CMYK:51,0,45,0",
+  "Color": "#FF7bcfa6",
+  "Description" : "石青：淡灰绿色"
+},
+{
+  "UniqueId": "rgb(123, 207, 166)",
+  "Title":"玉色",
+  "Subtitle": "RGB:46,223,163",
+
+  "Content": "CMYK:62,0,53,0",
+  "Color": "#FF7bcfa6",
+  "Description" : "玉色：玉的颜色，高雅的淡绿、淡青色"
+},
+{
+  "UniqueId": "rgb(127, 236, 173)",
+  "Title":"缥",
+  "Subtitle": "RGB:127,236,173",
+
+  "Content": "CMYK:44,0,46,0",
+  "Color": "#FF7fecad",
+  "Description" : "缥：绿色而微白"
+},
+{
+  "UniqueId": "rgb(164, 226, 198)",
+  "Title":"艾绿",
+  "Subtitle": "RGB:164,226,198",
+
+  "Content": "CMYK:34,0,29,0",
+  "Color": "#FFa4e2c6",
+  "Description" : "艾绿：艾草的颜色。偏苍白的绿色。 "
+},
+{
+  "UniqueId": "rgb(33, 166, 117)",
+  "Title":"松柏绿",
+  "Subtitle": "RGB:33,166,117",
+
+  "Content": "CMYK:79,9,71,1",
+  "Color": "#FF21a675",
+  "Description" : "松柏绿：经冬松柏叶的深绿"
+},
+{
+  "UniqueId": "rgb(5, 119, 72)",
+  "Title":"松花绿",
+  "Subtitle": "RGB:5,119,72",
+
+  "Content": "CMYK:89,29,88,17",
+  "Color": "#FF057748",
+  "Description" : "松花绿：亦作“松花”、“松绿”。偏黑的深绿色,墨绿。 "
+},
+{
+  "UniqueId": "rgb(188, 230, 114)",
+  "Title":"松花色",
+  "Subtitle": "RGB:5,119,72",
+
+  "Content": "CMYK:89,29,88,17",
+  "Color": "#FFbce672",
+  "Description" : "松花色：浅黄绿色。 （松树花粉的颜色）《红楼梦》中提及松花配桃红为娇艳"
+},
+{
+  "UniqueId": "rgb(68, 206, 246)",
+  "Title":"蓝",
+  "Subtitle": "RGB:68,206,246",
+
+  "Content": "CMYK:58,0,2,0",
+  "Color": "#FF44CEF6",
+  "Description" : "蓝：三原色的一种。像晴天天空的颜色（注：这里的蓝色指的不是RGB色彩中的B，而是CMY色彩中的C）
+"
+},
+{
+  "UniqueId": "rgb(23, 124, 176)",
+  "Title":"靛青",
+  "Subtitle": "RGB:23,124,176",
+
+  "Content": "CMYK:85,44,12,1",
+  "Color": "#FF177cb0",
+  "Description" : "靛青：也叫“蓝靛”。用蓼蓝叶泡水调和与石灰沉淀所得的蓝色染料。呈深蓝绿色
+  （注：有些地方将蓝墨水称为“靛水”或者“兰靛水”）"
+},
+{
+  "UniqueId": "rgb(6, 82, 121)",
+  "Title":"靛蓝",
+  "Subtitle": "RGB:6,82,121",
+
+  "Content": "CMYK:97,68,31,14",
+  "Color": "#FF065279",
+  "Description" : "靛蓝：由植物(例如靛蓝或菘蓝属植物)得到的蓝色染料"
+},
+{
+  "UniqueId": "rgb(62, 237, 231)",
+  "Title":"碧蓝",
+  "Subtitle": "RGB:62,237,231",
+
+  "Content": "CMYK:53,0,19,0",
+  "Color": "#FF3eede7",
+  "Description" : "碧蓝：青蓝色"
+},
+{
+  "UniqueId": "rgb(112, 243, 255)",
+  "Title":"蔚蓝",
+  "Subtitle": "RGB:112,243,255",
+
+  "Content": "CMYK:42,0,7,0",
+  "Color": "#FF70f3ff",
+  "Description" : "蔚蓝：类似晴朗天空的颜色的一种蓝色"
+},
+{
+  "UniqueId": "rgb(75, 92, 196)",
+  "Title":"宝蓝",
+  "Subtitle": "RGB:75,92,196",
+
+  "Content": "CMYK:78,69,0,0",
+  "Color": "#FF4b5cc4",
+  "Description" : "宝蓝：鲜艳明亮的蓝色（注：英文中为RoyalBlue
+  即皇家蓝色，是皇室选用的色彩，多和小面积纯黄色（金色）配合使用。 ）"
+},
+{
+  "UniqueId": "rgb(161, 175, 201)",
+  "Title":"蓝灰色",
+  "Subtitle": "RGB:161,175,201",
+
+  "Content": "CMYK:37,25,10,0",
+  "Color": "#FFa1afc9",
+  "Description" : "蓝灰色：一种近于灰略带蓝的深灰色"
+},
+{
+  "UniqueId": "rgb(46, 78, 126)",
+  "Title":"藏青",
+  "Subtitle": "RGB:46,78,126",
+
+  "Content": "CMYK:91,74,26,10",
+  "Color": "#FF2e4e7e",
+  "Description" : "藏青：蓝而近黑"
+},
+{
+  "UniqueId": "rgb(59, 46, 126)",
+  "Title":"藏蓝",
+  "Subtitle": "RGB:59,46,126",
+
+  "Content": "CMYK:95,100,15,4",
+  "Color": "#FF3b2e7e",
+  "Description" : "藏蓝：蓝里略透红色"
+},
+{
+  "UniqueId": "rgb(74, 66, 102)",
+  "Title":"黛",
+  "Subtitle": "RGB:74,66,102",
+
+  "Content": "CMYK:77,78,35,22",
+  "Color": "#FF4a4266",
+  "Description" : "黛：青黑色的颜料。古代女子用以画眉。 "
+},
+{
+  "UniqueId": "rgb(66, 102, 102)",
+  "Title":"黛绿",
+  "Subtitle": "RGB:66,102,102",
+
+  "Content": "CMYK:76,46,53,22",
+  "Color": "#FF426666",
+  "Description" : "黛绿：墨绿。 "
+},
+{
+  "UniqueId": "rgb(66, 80, 102)",
+  "Title":"黛蓝",
+  "Subtitle": "RGB:66,80,102",
+
+  "Content": "CMYK:78,64,41,24",
+  "Color": "#FF425066",
+  "Description" : "黛蓝：深蓝色"
+},
+{
+  "UniqueId": "rgb(87, 66, 102)",
+  "Title":"黛紫",
+  "Subtitle": "RGB:87,66,102",
+
+  "Content": "CMYK:71,79,36,22",
+  "Color": "#FF574266",
+  "Description" : "黛紫：深紫色"
+},
+{
+  "UniqueId": "rgb(141, 75, 187)",
+  "Title":"紫色",
+  "Subtitle": "RGB:141,75,187",
+
+  "Content": "CMYK:56,79,0,0",
+  "Color": "#FF8d4bbb",
+  "Description" : "紫色：蓝和红组成的颜色。古人以紫为祥瑞的颜色。代指与帝王、皇宫有关的事物。 "
+},
+{
+  "UniqueId": "rgb(129, 84, 99)",
+  "Title":"紫酱",
+  "Subtitle": "RGB:129,84,99",
+
+  "Content": "CMYK:46,70,45,19",
+  "Color": "#FF815463",
+  "Description" : "紫酱：浑浊的紫色"
+},
+{
+  "UniqueId": "rgb(129, 84, 118)",
+  "Title":"酱紫",
+  "Subtitle": "RGB:129,84,118",
+
+  "Content": "CMYK:52,74,33,10",
+  "Color": "#FF815476",
+  "Description" : "酱紫：紫中略带红的颜色"
+},
+{
+  "UniqueId": "rgb(76, 34, 27)",
+  "Title":"紫檀",
+  "Subtitle": "RGB:76,34,27",
+
+  "Content": "CMYK:43,79,77,63",
+  "Color": "#FF4c221b",
+  "Description" : "紫檀：檀木的颜色，也称乌檀色乌木色"
+},
+{
+  "UniqueId": "rgb(0, 51, 113)",
+  "Title":"绀青",
+  "Subtitle": "RGB:0,51,113",
+
+  "Content": "CMYK:100,88,28,16",
+  "Color": "#FF003371",
+  "Description" : "绀青绀紫：纯度较低的深紫色"
+},
+{
+  "UniqueId": "rgb(86, 0​​, 79)",
+  "Title":"紫棠",
+  "Subtitle": "RGB:86,0,79",
+
+  "Content": "CMYK:66,100,33,36",
+  "Color": "#FF56004f",
+  "Description" : "紫棠：黑红色"
+},
+{
+  "UniqueId": "rgb(128, 29, 174)",
+  "Title":"青莲",
+  "Subtitle": "RGB:128,29,174",
+
+  "Content": "CMYK:64,92,0,0",
+  "Color": "#FF801dae",
+  "Description" : "青莲：偏蓝的紫色"
+},
+{
+  "UniqueId": "rgb(76, 141, 174)",
+  "Title":"群青",
+  "Subtitle": "RGB:76,141,174",
+
+  "Content": "CMYK:72,34,20,1",
+  "Color": "#FF4c8dae",
+  "Description" : "群青：深蓝色"
+},
+{
+  "UniqueId": "rgb(176, 164, 227)",
+  "Title":"雪青",
+  "Subtitle": "RGB:176,164,227",
+
+  "Content": "CMYK:30,34,0,0",
+  "Color": "#FFb0a4e3",
+  "Description" : "雪青：浅蓝紫色"
+},
+{
+  "UniqueId": "rgb(204, 164, 227)",
+  "Title":"丁香色",
+  "Subtitle": "RGB:204,164,227",
+
+  "Content": "CMYK:20,37,0,0",
+  "Color": "#FFcca4e3",
+  "Description" : "丁香色：紫丁香的颜色，浅浅的紫色，很娇柔淡雅的色彩"
+},
+{
+  "UniqueId": "rgb(237, 209, 216)",
+  "Title":"藕色",
+  "Subtitle": "RGB:237,209,216",
+
+  "Content": "CMYK:5,19,7,0",
+  "Color": "#FFedd1d8",
+  "Description" : "藕色：浅灰而略带红的颜色"
+},
+{
+  "UniqueId": "rgb(228, 198, 208)",
+  "Title":"藕荷色",
+  "Subtitle": "RGB:228,198,208&nbsp;CMYK:
+  "Content": "CMYK:9,23,8,0",
+  "Color": "#FFe4c6d0",
+  "Description" : "藕荷色：浅紫而略带红的颜色"
+},
+{
+  "UniqueId": "rgb(117, 135, 138)",
+  "Title":"苍色",
+  "Subtitle": "RGB:117,135,138",
+
+  "Content": "CMYK:58,38,40,0",
+  "Color": "#FF75878a",
+  "Description" : "苍色：即各种颜色掺入黑色后的颜色，如苍翠"
+},
+{
+  "UniqueId": "rgb(81, 154, 115)",
+  "Title":"苍黄",
+  "Subtitle": "RGB:81,154,115",
+
+  "Content": "CMYK:71,20,67,3",
+  "Color": "#FF519a73",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(162, 155, 124)",
+  "Title":"苍青",
+  "Subtitle": "RGB:162,155,124",
+
+  "Content": "CMYK:38,33,55,3",
+  "Color": "#FFa29b7c",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(115, 151, 171)",
+  "Title":"苍黑",
+  "Subtitle": "RGB:115,151,171",
+
+  "Content": "CMYK:58,32,25,1",
+  "Color": "#FF7397ab",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(209, 217, 224)",
+  "Title":"苍白",
+  "Subtitle": "RGB:209,217,224",
+
+  "Content": "CMYK:17,9,7,0",
+  "Color": "#FFd1d9e0",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(136, 173, 166)",
+  "Title":"水色",
+  "Subtitle": "RGB:136,173,166",
+
+  "Content": "CMYK:49,20,35,0",
+  "Color": "#FF88ada6",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(243, 211, 231)",
+  "Title":"水红",
+  "Subtitle": "RGB:243,211,231",
+
+  "Content": "CMYK:2,19,0,0",
+  "Color": "#FFf3d3e7",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(212, 242, 231)",
+  "Title":"水绿",
+  "Subtitle": "RGB:212,242,231",
+
+  "Content": "CMYK:16,0,11,0",
+  "Color": "#FFd4f2e7",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(210, 240, 244)",
+  "Title":"水蓝",
+  "Subtitle": "RGB:210,240,244",
+
+  "Content": "CMYK:16,0,4,0",
+  "Color": "#FFd2f0f4",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(211, 224, 243)",
+  "Title":"淡青",
+  "Subtitle": "RGB:211,224,243",
+
+  "Content": "CMYK:15,7,0,0",
+  "Color": "#FFd3e0f3",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(48, 223, 243)",
+  "Title":"湖蓝",
+  "Subtitle": "RGB:48,2​​23,243",
+
+  "Content": "CMYK:57,0,10,0",
+  "Color": "#FF30dff3",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(37, 248, 203)",
+  "Title":"湖绿",
+  "Subtitle": "RGB:37,248,203",
+
+  "Content": "CMYK:55,0,36,0",
+  "Color": "#FF25f8cb",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(255, 255, 255)",
+  "Title":"精白",
+  "Subtitle": "RGB:255,255,255",
+
+  "Content": "CMYK:0,0,0,0",
+  "Color": "#FFffffff",
+  "Description" : "精白：纯白，洁白，净白，粉白。 "
+},
+{
+  "UniqueId": "rgb(255, 251, 240)",
+  "Title":"像牙白",
+  "Subtitle": "RGB:255,251,240",
+
+  "Content": "CMYK:0,1,5,0",
+  "Color": "#FFfffbf0",
+  "Description" : "像牙白：乳白色"
+},
+{
+  "UniqueId": "rgb(240, 252, 255)",
+  "Title":"雪白",
+  "Subtitle": "RGB:240,252,255",
+
+  "Content": "CMYK:4,0,1,0",
+  "Color": "#FFf0fcff",
+  "Description" : "雪白：如雪般洁白"
+},
+{
+  "UniqueId": "rgb(214, 236, 240)",
+  "Title":"月白",
+  "Subtitle": "RGB:214,236,240",
+
+  "Content": "CMYK:15,1,4,0​​",
+  "Color": "#FFd6ecf0",
+  "Description" : "月白：淡蓝色"
+},
+{
+  "UniqueId": "rgb(242, 236, 222)",
+  "Title":"缟",
+  "Subtitle": "RGB:242,236,222",
+
+  "Content": "CMYK:4,5,12,0",
+  "Color": "#FFf2ecde",
+  "Description" : "缟：白色"
+},
+{
+  "UniqueId": "rgb(224, 240, 233)",
+  "Title":"素",
+  "Subtitle": "RGB:224,240,233",
+
+  "Content": "CMYK:11,1,9,0",
+  "Color": "#FFe0f0e9",
+  "Description" : "素：白色，无色"
+},
+{
+  "UniqueId": "rgb(243, 249, 241)",
+  "Title":"荼白",
+  "Subtitle": "RGB:243,249,241",
+
+  "Content": "CMYK:3,0,5,0",
+  "Color": "#FFf3f9f1",
+  "Description" : "荼白：如荼之白色"
+},
+{
+  "UniqueId": "rgb(233, 241, 246)",
+  "Title":"霜色",
+  "Subtitle": "RGB:233,241,246",
+
+  "Content": "CMYK:7,2,1,0",
+  "Color": "#FFe9f1f6",
+  "Description" : "霜色：白霜的颜色"
+},
+{
+  "UniqueId": "rgb(194, 204, 208)",
+  "Title":"花白",
+  "Subtitle": "RGB:194,204,208",
+  "Content": "CMYK:24,13,14,0",
+  "Color": "#FFc2ccd0</span>",
+  "Description" : "花白：白色和黑色混杂的。斑白的 夹杂有灰色的白"
+},
+{
+  "UniqueId": "rgb(252, 239, 232)",
+  "Title":"鱼肚白",
+  "Subtitle": "RGB:252,239,232",
+
+  "Content": "CMYK:1,6,6,0",
+  "Color": "#FFfcefe8",
+  "Description" : "鱼肚白：似鱼腹部的颜色，多指黎明时东方的天色颜色"
+},
+{
+  "UniqueId": "rgb(227, 249, 253)",
+  "Title":"莹白",
+  "Subtitle": "RGB:227,239,253",
+
+  "Content": "CMYK:9,0,1,0",
+  "Color": "#FFe3f9fd",
+  "Description" : "莹白：晶莹洁白"
+},
+{
+  "UniqueId": "rgb(128, 128, 128)",
+  "Title":"灰色",
+  "Subtitle": "RGB:128,128,128",
+
+  "Content": "CMYK:52,43,43,0",
+  "Color": "#FF808080",
+  "Description" : "灰色：黑色和白色混和成的一种颜色"
+},
+{
+  "UniqueId": "rgb(238, 222, 176)",
+  "Title":"牙色",
+  "Subtitle": "RGB:238,222,176",
+
+  "Content": "CMYK:7,10,35,0",
+  "Color": "#FFeedeb0",
+  "Description" : "牙色：与像牙相似的淡黄色（注：暖白）"
+},
+{
+  "UniqueId": "rgb(240, 240, 244)",
+  "Title":"铅白",
+  "Subtitle": "RGB:240,240,244",
+
+  "Content": "CMYK:4,3,2,0",
+  "Color": "#FFf0f0f4",
+  "Description" : "铅白：铅粉的白色。铅粉，国画颜料，日久易氧化“返铅”变黑。铅粉在古时用以搽脸的化妆品。（注：冷白）"
+},
+{
+  "UniqueId": "rgb(98, 42, 29)",
+  "Title":"玄色",
+  "Subtitle": "RGB:98,42,29",
+
+  "Content": "CMYK:37,82,84,51",
+  "Color": "#FF622a1d",
+  "Description" : "玄色：赤黑色，黑中带红的颜色，又泛指黑色"
+},
+{
+  "UniqueId": "rgb(61, 59, 79)",
+  "Title":"玄青",
+  "Subtitle": "RGB:61,59,79",
+
+  "Content": "CMYK:76,73,46,39",
+  "Color": "#FF3d3b4f",
+  "Description" : "玄青：深黑色"
+},
+{
+  "UniqueId": "rgb(114, 94, 130)",
+  "Title":"乌色",
+  "Subtitle": "RGB:114,94,130",
+
+  "Content": "CMYK:61,67,28,8",
+  "Color": "#FF725e82",
+  "Description" : "乌色：暗而呈黑的颜色"
+},
+{
+  "UniqueId": "rgb(57, 47, 65)",
+  "Title":"乌黑",
+  "Subtitle": "RGB:57,47,65",
+
+  "Content": "CMYK:74,76,49,49",
+  "Color": "#FF392f41",
+    "Description": "乌黑：深黑"
+
+},
+{
+  "UniqueId": "rgb(22, 24, 35)",
+  "Title":"漆黑",
+  "Subtitle": "RGB:22,24,35",
+
+  "Content": "CMYK:81,74,57,73",
+  "Color": "#FF161823",
+  "Description" : "漆黑：非常黑的"
+},
+{
+  "UniqueId": "rgb(80, 97, 109)",
+  "Title":"墨色",
+  "Subtitle": "RGB:80,97,109",
+
+  "Content": "CMYK:71,54,44,19",
+  "Color": "#FF50616d",
+  "Description" : "墨色：即黑色"
+},
+{
+  "UniqueId": "rgb(117, 138, 153)",
+  "Title":"墨灰",
+  "Subtitle": "RGB:117,138,153",
+
+  "Content": "CMYK:58,39,31,2",
+  "Color": "#FF758a99",
+  "Description" : "墨灰：即黑灰"
+},
+{
+  "UniqueId": "rgb(0, 0, 0)",
+  "Title":"黑色",
+  "Subtitle": "RGB:0,0,0",
+
+  "Content": "CMYK:75,68,67,90",
+  "Color": "#FF000000",
+  "Description" : "黑色：亮度最低的非彩色的或消色差的物体的颜色；最暗的灰色；被认为特别属于那些既不能反射、又不能透过能使人感觉到的微小入射光的物体,任何亮度很低的物体颜色。 "
+},
+{
+  "UniqueId": "rgb(73, 49, 49)",
+  "Title":"缁色",
+  "Subtitle": "RGB:73,49,49",
+
+  "Content": "CMYK:54,70,63,56",
+  "Color": "#FF493131",
+  "Description" : "缁色：帛黑色"
+},
+{
+  "UniqueId": "rgb(49, 37, 32)",
+  "Title":"煤黑",
+  "Subtitle": "RGB:49,37,32",
+
+  "Content": "CMYK:61,67,69,70",
+  "Color": "#FF312520",
+  "Description" : "煤黑像牙黑：都是黑，不过有冷暖之分。 "
+},
+{
+  "UniqueId": "rgb(93, 81, 60)",
+  "Title":"黧",
+  "Subtitle": "RGB:93,81,60",
+
+  "Content": "CMYK:54,55,73,38",
+  "Color": "#FF5d513c",
+  "Description" : "黧：黑中带黄的颜色"
+},
+{
+  "UniqueId": "rgb(117, 102, 77)",
+  "Title":"黎",
+  "Subtitle": "RGB:117,102,77",
+
+  "Content": "CMYK:49,50,70,24",
+  "Color": "#FF75664d",
+  "Description" : "黎：黑中带黄似黎草色"
+},
+{
+  "UniqueId": "rgb(107, 104, 130)",
+  "Title":"黝",
+  "Subtitle": "RGB:107,104,130",
+
+  "Content": "CMYK:63,58,33,9",
+  "Color": "#FF6b6882",
+  "Description" : "黝：本义为淡黑色或微青黑色。 "
+},
+{
+  "UniqueId": "rgb(102, 87, 87)",
+  "Title":"黝黑",
+  "Subtitle": "RGB:102,87,87",
+
+  "Content": "CMYK:56,59,54,28",
+  "Color": "#FF665757",
+  "Description" : "黝黑：（皮肤暴露在太阳光下而晒成的）青黑色"
+},
+{
+  "UniqueId": "rgb(65, 85, 93)",
+  "Title":"黯",
+  "Subtitle": "RGB:65,85,93",
+
+  "Content": "CMYK:76,56,50,29",
+  "Color": "#FF41555d",
+  "Description" : "黯：深黑色、泛指黑色"
+},
+{
+  "UniqueId": "rgb(242, 190, 69)",
+  "Title":"赤金",
+  "Subtitle": "RGB:242,190,69",
+
+  "Content": "CMYK:5,26,85,0",
+  "Color": "#FFF2BE45",
+  "Description" : "赤金：足金的颜色"
+},
+{
+  "UniqueId": "rgb(234, 205, 118)",
+  "Title":"金色",
+  "Subtitle": "RGB:234,205,118",
+
+  "Content": "CMYK:9,16,64,0",
+  "Color": "#FFeacd76",
+  "Description" : "金色：平均为深黄色带光泽的颜色"
+},
+{
+  "UniqueId": "rgb(233, 231, 239)",
+  "Title":"银白",
+  "Subtitle": "RGB:233,231,239",
+
+  "Content": "CMYK:7,7,2,0",
+  "Color": "#FFe9e7ef",
+  "Description" : "银白：带银光的白色"
+},
+{
+  "UniqueId": "rgb(84, 150, 136)",
+  "Title":"铜绿",
+  "Subtitle": "RGB:84,150,136",
+
+  "Content": "CMYK:69,24,51,3",
+  "Color": "#FF549688",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(167, 142, 68)",
+  "Title":"乌金",
+  "Subtitle": "RGB:167,142,68",
+
+  "Content": "CMYK:34,38,87,7",
+  "Color": "#FFa78e44",
+  "Description" : ""
+},
+{
+  "UniqueId": "rgb(186, 202, 198)",
+  "Title":"老银",
+  "Subtitle": "RGB:186,202,198",
+
+  "Content": "CMYK:27,12,20,0",
+  "Color": "#FFbacac6",
+  "Description" : "老银：金属氧化后的色彩"}

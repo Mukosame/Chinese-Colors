@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:data="using:ChineseColors.Data"
+    
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
     mc:Ignorable="d" Background="Transparent" Name="main" >
@@ -14,14 +15,13 @@
         <DataTemplate x:Key="HubSectionHeaderTemplate">
             <TextBlock Margin="0,0,0,-9.5" Text=""/>
         </DataTemplate>
-        
+
 
         <!-- Grid-appropriate item template-->
         <DataTemplate x:Key="Standard200x180TileItemTemplate">
             <Grid Margin="0,0,9.5,9.5" Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}">
                 <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}" Height="138.5" Width="138.5"/>
-                <TextBlock Text="{Binding Title}" VerticalAlignment="Bottom" Margin="9.5,0,0,6.5" Style="{ThemeResource BaseTextBlockStyle}"
-                           />
+                <TextBlock Text="{Binding Title}" VerticalAlignment="Bottom" Margin="9.5,0,0,6.5" Style="{ThemeResource BaseTextBlockStyle}"/>
             </Grid>
         </DataTemplate>
 
@@ -31,7 +31,7 @@
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                
+
                 <!--规定一个色条的样式-->
                 <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}" Margin="0,9.5,0,0" Grid.Column="0" HorizontalAlignment="Left">
                     <Rectangle Width="10" Height="79" Fill="{Binding Color}"/>
@@ -46,19 +46,25 @@
     <!--底部APP Bar-->
     <Page.BottomAppBar>
         <CommandBar ClosedDisplayMode="Minimal" Background="#33000000" BorderBrush="{x:Null}">
-            <!--AppBarButton Icon="CellPhone" Label="锁屏" Click="aclick"/-->
-            <AppBarButton Icon="Like" Label="好评" Click="bclick"/>
-            <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
-            <AppBarButton Icon="FontColor" Label="换色" Click="ChangeForeground" />
-            <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
+            <CommandBar.PrimaryCommands>
+            <AppBarButton Icon="Like" Label="点评" Click="bclick"/>
+            <AppBarButton Icon="Sync" Label="色谱" Click="Spectrum" />
+            <!--AppBarButton Icon="Help" Label="关于" Click="cclick"/-->
+            <AppBarButton Icon="FontColor" Label="颜色" Click="ChangeForeground" />
+            <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />            
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Uid="AppBarSec" Label="关于此应用" Click="cclick"/>
+            </CommandBar.SecondaryCommands>
+
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid x:Name="LayoutRoot">
 
         <Hub x:Name="Hub" Background="Transparent">
-            <HubSection x:Uid="HubSection3" Name="Hubsection1" 
-                        DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
+            <HubSection x:Uid="HubSection3" Name="Hubsection1"
+                        DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
                 <DataTemplate>
                     <ListView                         
                         AutomationProperties.AutomationId="ItemListView"
@@ -74,29 +80,35 @@
             </HubSection>
 
             <!-- 解释页-->
-            <HubSection x:Uid="HubSectionAdd" Name="HubSection2" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB">
+            <HubSection x:Uid="HubSectionAdd" Name="HubSection2">
+                <HubSection.RenderTransform>
+                    <CompositeTransform ScaleX="1.1"/>
+                </HubSection.RenderTransform>
                 <DataTemplate>
 
                 </DataTemplate>
             </HubSection>
-
         </Hub>
+
         <Grid Margin="120,20,8,0">
             <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" 
                        Foreground="White"/>
         </Grid>
         <Grid Margin="187,220,10,0">
             <Grid.RowDefinitions>
-            	<RowDefinition Height="Auto"/>
-            	<RowDefinition Height="Auto"/>
-            	<RowDefinition Height="30"/>
-            	<RowDefinition Height="*" />
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-        		<TextBlock x:Name="RGB" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23"  HorizontalAlignment="Right" Foreground="White"/>
-        	<TextBlock x:Name="CMYK" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
+            <TextBlock x:Name="HEX" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
+            <TextBlock x:Name="RGB" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23"  HorizontalAlignment="Right" Foreground="White"/>
+            <TextBlock x:Name="CMYK" Text="" Grid.Row="2" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
             <TextBlock x:Name="des" Text="" FontSize="20" HorizontalAlignment="Left"
-        		Grid.Row="3" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"/>
+        		Grid.Row="4" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"/>
         </Grid>
+
     </Grid>
-    
+
 </Page>
