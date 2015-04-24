@@ -43,6 +43,7 @@ namespace ChineseColors
         private readonly NavigationHelper navigationHelper;
         private readonly ObservableDictionary defaultViewModel = new ObservableDictionary();
         private readonly ResourceLoader resourceLoader = ResourceLoader.GetForCurrentView("Resources");
+        private ApplicationDataContainer localSettings;
         String appversion = GetAppVersion();
         int flag=0;
 
@@ -50,6 +51,7 @@ namespace ChineseColors
         {
             this.InitializeComponent();
             InitRandom();
+            localSettings = ApplicationData.Current.LocalSettings;
         
             // Hub is only supported in Portrait orientation
             DisplayInformation.AutoRotationPreferences = DisplayOrientations.Portrait;
@@ -266,9 +268,25 @@ namespace ChineseColors
 
                 await encoder.FlushAsync();
             }
-
-            await new MessageDialog("当前颜色已保存，您可以进入相册中查看，并将其设为锁屏或背景", "保存成功").ShowAsync();
+            if (localSettings.Values.ContainsKey("ok"))
+            { ;}
+            else
+            {
+                var messageDialog = new MessageDialog("当前颜色已保存，您可以进入相册中查看，并将其设为锁屏或背景", "保存成功");
+                messageDialog.Commands.Add(new UICommand("知道了"));
+                messageDialog.Commands.Add(new UICommand(
+        "不再提醒",
+        new UICommandInvokedHandler(this.CommandInvokedHandler)));
+                
+                await messageDialog.ShowAsync();
+            }
         }
+
+        private void CommandInvokedHandler(IUICommand command)
+        {
+            localSettings.Values["ok"] = "ok";
+        }
+
 #endregion
         #region InitFeature
         //not finished
