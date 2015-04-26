@@ -47,14 +47,14 @@
     <Page.BottomAppBar>
         <CommandBar ClosedDisplayMode="Minimal" Background="#33000000" BorderBrush="{x:Null}">
             <CommandBar.PrimaryCommands>
-            <AppBarButton Icon="Like" Label="点评" Click="bclick"/>
-            <AppBarButton Icon="Sync" Label="色谱" Click="Spectrum" />
+            <AppBarButton Icon="Like" Label="点评" Click="bclick"/>            
             <!--AppBarButton Icon="Help" Label="关于" Click="cclick"/-->
-            <AppBarButton Icon="FontColor" Label="颜色" Click="ChangeForeground" />
-            <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />            
+                <AppBarButton Icon="FontColor"  Label="颜色" Click="ChangeForeground" />
+                <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
+             <AppBarButton Icon="Sync" Label="色谱" Click="Spectrum" />
             </CommandBar.PrimaryCommands>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:Uid="AppBarSec" Label="关于此应用" Click="cclick"/>
+                <AppBarButton x:Uid="AppBarSec" Label="关于此应用" Click="cclick"/>                
             </CommandBar.SecondaryCommands>
 
         </CommandBar>
@@ -90,7 +90,7 @@
             </HubSection>
         </Hub>
 
-        <Grid Margin="120,20,8,0">
+        <Grid Margin="120,20,8,480">
             <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" 
                        Foreground="White"/>
         </Grid>

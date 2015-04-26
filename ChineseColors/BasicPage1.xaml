@@ -33,7 +33,8 @@
         <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
             <StackPanel>
                 <TextBlock FontSize="22">
-                <LineBreak/>资料来源：《中国传统色彩名录》
+                <LineBreak/>资料来源：
+                <LineBreak/>《中国传统色彩名录》《色谱》
                 <LineBreak/>开发者：Mukosame
                 </TextBlock>
                 <Button Content="给我发邮件" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,12,182.667,0" Height="77" BorderThickness="0" Background="#FFB75056" Click="email"/>

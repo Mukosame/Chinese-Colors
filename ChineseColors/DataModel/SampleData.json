@@ -1015,21 +1015,21 @@
             },
             {
                 "UniqueId": "rgb(81, 154, 115)",
-                "Title": "苍黄",
+                "Title": "苍青",
                 "Subtitle": "RGB:81,154,115",
 
                 "Content": "CMYK:71,20,67,3",
                 "Color": "#519a73",
-                "Description": "苍黄：黄而发青；暗黄色"
+                "Description": "苍青：苍：草色；青：东方之色，春色"
             },
             {
                 "UniqueId": "rgb(162, 155, 124)",
-                "Title": "苍青",
+                "Title": "苍黄",
                 "Subtitle": "RGB:162,155,124",
 
                 "Content": "CMYK:38,33,55,3",
                 "Color": "#a29b7c",
-                "Description": "苍青：苍：草色；青：东方之色，春色"
+                "Description": "苍黄：黄而发青；暗黄色"
             },
             {
                 "UniqueId": "rgb(115, 151, 171)",
