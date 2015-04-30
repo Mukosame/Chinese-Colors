@@ -9,7 +9,8 @@
     
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
     d:DataContext="{Binding Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"
-    mc:Ignorable="d" Background="Transparent" Name="main" >
+    mc:Ignorable="d" Background="Transparent" Name="main" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" >
+    
 
     <Page.Resources>
         <DataTemplate x:Key="HubSectionHeaderTemplate">
@@ -48,25 +49,20 @@
         <CommandBar ClosedDisplayMode="Minimal" Background="#33000000" BorderBrush="{x:Null}">
             <CommandBar.PrimaryCommands>
             <AppBarButton Icon="Like" Label="点评" Click="bclick"/>            
-            <!--AppBarButton Icon="Help" Label="关于" Click="cclick"/-->
+            <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
                 <AppBarButton Icon="FontColor"  Label="颜色" Click="ChangeForeground" />
                 <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
-             <AppBarButton Icon="Sync" Label="色谱" Click="Spectrum" />
             </CommandBar.PrimaryCommands>
-            <CommandBar.SecondaryCommands>
-                <AppBarButton x:Uid="AppBarSec" Label="关于此应用" Click="cclick"/>                
-            </CommandBar.SecondaryCommands>
-
         </CommandBar>
     </Page.BottomAppBar>
 
     <Grid x:Name="LayoutRoot">
 
-        <Hub x:Name="Hub" Background="Transparent">
-            <HubSection x:Uid="HubSection3" Name="Hubsection1"
-                        DataContext="{Binding Groups[0]}" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
-                <DataTemplate>
-                    <ListView                         
+        <Pivot x:Name="Hub" Background="Transparent" Margin="0,0,0,-30">
+            <PivotItem x:Uid="HubSection3" Name="Hubsection1"
+                        DataContext="{Binding Groups[0]}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
+
+                <ListView                         
                         AutomationProperties.AutomationId="ItemListView"
                         AutomationProperties.Name="Items In Group"
                         SelectionMode="None"
@@ -75,40 +71,58 @@
                         ItemTemplate="{StaticResource StandardTripleLineItemTemplate}"
                         ItemClick="ItemView_ItemClick"
                         ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                    </ListView>
-                </DataTemplate>
-            </HubSection>
+                </ListView>
 
-            <!-- 解释页-->
-            <HubSection x:Uid="HubSectionAdd" Name="HubSection2">
-                <HubSection.RenderTransform>
-                    <CompositeTransform ScaleX="1.1"/>
-                </HubSection.RenderTransform>
-                <DataTemplate>
+            </PivotItem>
 
-                </DataTemplate>
-            </HubSection>
-        </Hub>
+            <!-- 页2-->
+            <PivotItem x:Uid="HubSectionAdd" Name="Hubsection2"
+                        DataContext="{Binding Groups[1]}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
 
-        <Grid Margin="120,20,8,480">
-            <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" 
-                       Foreground="White"/>
-        </Grid>
-        <Grid Margin="187,220,10,0">
+                <ListView                         
+                        AutomationProperties.AutomationId="ItemListView"
+                        AutomationProperties.Name="Items In Group"
+                        SelectionMode="None"
+                        IsItemClickEnabled="True"
+                        ItemsSource="{Binding Items}"
+                        ItemTemplate="{StaticResource StandardTripleLineItemTemplate}"
+                        ItemClick="ItemView_ItemClick"
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                </ListView>
+
+            </PivotItem>
+
+            <!-- 页2-->
+            <PivotItem x:Uid="HubSectionVoid" Name="Hubsection3">
+                
+            </PivotItem>
+        </Pivot>
+
+        <Grid Margin="180,10,8,-20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="30"/>
-                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
-            <TextBlock x:Name="HEX" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
-            <TextBlock x:Name="RGB" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23"  HorizontalAlignment="Right" Foreground="White"/>
-            <TextBlock x:Name="CMYK" Text="" Grid.Row="2" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
-            <TextBlock x:Name="des" Text="" FontSize="20" HorizontalAlignment="Left"
-        		Grid.Row="4" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"/>
-        </Grid>
+            <TextBlock x:Name="Title" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="87" HorizontalAlignment="Right" 
+                       Foreground="White"  TextWrapping="Wrap" Width="95"/>
+            <TextBlock x:Name="pinyin" Grid.Row="1" Text="" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
 
+            <Grid Grid.Row="2" VerticalAlignment="Bottom">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Name="HEX" Text="" Grid.Row="0" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
+                <TextBlock x:Name="RGB" Text="" Grid.Row="1" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23"  HorizontalAlignment="Right" Foreground="White"/>
+                <TextBlock x:Name="CMYK" Text="" Grid.Row="2" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
+                <TextBlock x:Name="des" Grid.Row="4" TextWrapping="Wrap" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" FontSize="23" HorizontalAlignment="Right" Foreground="White"/>
+            </Grid>
+
+        </Grid>
     </Grid>
 
 </Page>

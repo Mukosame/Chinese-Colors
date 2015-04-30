@@ -622,10 +622,9 @@
                 "UniqueId": "rgb(61, 225, 173)",
                 "Title": "翡翠色",
                 "Subtitle": "RGB:61,225,173",
-
                 "Content": "CMYK:59,0,47,0",
                 "Color": "#3de1ad",
-                "Description": "翡翠色：1.翡翠鸟羽毛的青绿色 2.翡翠宝石的颜色 (注：C-Y≧30的系列色彩，多与白色配合以体现清新明丽感觉，与黑色配合效果不好：该色个性柔弱，会被黑色牵制)"
+                "Description": "翡翠鸟羽毛的青绿色；翡翠宝石的颜色 (C-Y≧30的色彩，多与白色配合以体现清新明丽，与黑配合效果不好：该色个性柔弱，会被黑色牵制)"
             },
             {
                 "UniqueId": "rgb(64, 222, 90)",
@@ -1189,7 +1188,7 @@
                 "Title": "花白",
                 "Subtitle": "RGB:194,204,208",
                 "Content": "CMYK:24,13,14,0",
-                "Color": "#c2ccd0</span>",
+                "Color": "#c2ccd0",
                 "Description": "花白：白色和黑色混杂的。斑白的 夹杂有灰色的白"
             },
             {
@@ -1553,7 +1552,7 @@
             
 {
 "UniqueId" : "baicaoshuang" ,
-"Content": "0,0,0,81" ,
+"Content": "CMYK:0,0,0,81" ,
 "Title":"百草霜" ,
 "Subtitle" : "RGB:48,48,48" ,
 "Color": "#303030" ,
@@ -1562,7 +1561,7 @@
 
 {
 "UniqueId" : "baifanghuilan" ,
-"Content": "46,83,0,42" ,
+"Content": "CMYK:46,83,0,42" ,
 "Title":"柏坊灰蓝" ,
 "Subtitle" : "RGB:78,24,146" ,
 "Color": "#4e1892" ,
@@ -1571,7 +1570,7 @@
 
 {
 "UniqueId" : "baolan" ,
-"Content": "79,64,0,41" ,
+"Content": "CMYK:79,64,0,41" ,
 "Title":"宝蓝" ,
 "Subtitle" : "RGB:31,54,150" ,
 "Color": "#1f3696" ,
@@ -1580,7 +1579,7 @@
 
 {
 "UniqueId" : "beijingmaolan" ,
-"Content": "73,29,0,42" ,
+"Content": "CMYK:73,29,0,42" ,
 "Title":"北京毛蓝" ,
 "Subtitle" : "RGB:39,104,147" ,
 "Color": "#276893" ,
@@ -1589,7 +1588,7 @@
 
 {
 "UniqueId" : "biyushi" ,
-"Content": "43,1,0,40" ,
+"Content": "CMYK:43,1,0,40" ,
 "Title":"碧玉石" ,
 "Subtitle" : "RGB:86,149,151" ,
 "Color": "#569597" ,
@@ -1598,7 +1597,7 @@
 
 {
 "UniqueId" : "canghuang" ,
-"Content": "0,58,96,22" ,
+"Content": "CMYK:0,58,96,22" ,
 "Title":"苍黄" ,
 "Subtitle" : "RGB:198,83,6" ,
 "Color": "#c65306" ,
@@ -1607,7 +1606,7 @@
 
 {
 "UniqueId" : "zanglan" ,
-"Content": "65,47,0,58" ,
+"Content": "CMYK:65,47,0,58" ,
 "Title":"藏蓝" ,
 "Subtitle" : "RGB:37,56,107" ,
 "Color": "#25386b" ,
@@ -1616,7 +1615,7 @@
 
 {
 "UniqueId" : "canglyv" ,
-"Content": "17,0,27,62" ,
+"Content": "CMYK:17,0,27,62" ,
 "Title":"苍绿" ,
 "Subtitle" : "RGB:78,95,69" ,
 "Color": "#4e5f45" ,
@@ -1625,7 +1624,7 @@
 
 {
 "UniqueId" : "caohuang" ,
-"Content": "0,5,61,14" ,
+"Content": "CMYK:0,5,61,14" ,
 "Title":"草黄" ,
 "Subtitle" : "RGB:219,206,84" ,
 "Color": "#dbce54" ,
@@ -1634,7 +1633,7 @@
 
 {
 "UniqueId" : "chengdehui" ,
-"Content": "0,0,4,54" ,
+"Content": "CMYK:0,0,4,54" ,
 "Title":"承德灰" ,
 "Subtitle" : "RGB:117,117,112" ,
 "Color": "#757570" ,
@@ -1643,7 +1642,7 @@
 
 {
 "UniqueId" : "chengdezao" ,
-"Content": "2,0,1,63" ,
+"Content": "CMYK:2,0,1,63" ,
 "Title":"承德皂" ,
 "Subtitle" : "RGB:90,92,91" ,
 "Color": "#5a5c5b" ,
@@ -1652,7 +1651,7 @@
 
 {
 "UniqueId" : "chensha" ,
-"Content": "0,46,52,31" ,
+"Content": "CMYK:0,46,52,31" ,
 "Title":"辰沙" ,
 "Subtitle" : "RGB:175,94,83" ,
 "Color": "#af5e53" ,
@@ -1661,7 +1660,7 @@
 
 {
 "UniqueId" : "chunlan" ,
-"Content": "26,4,0,34" ,
+"Content": "CMYK:26,4,0,34" ,
 "Title":"春蓝" ,
 "Subtitle" : "RGB:123,161,168" ,
 "Color": "#7ba1a8" ,
@@ -1670,7 +1669,7 @@
 
 {
 "UniqueId" : "chunlyv" ,
-"Content": "5,0,12,6" ,
+"Content": "CMYK:5,0,12,6" ,
 "Title":"春绿" ,
 "Subtitle" : "RGB:227,239,209" ,
 "Color": "#e3efd1" ,
@@ -1679,7 +1678,7 @@
 
 {
 "UniqueId" : "cuilyv" ,
-"Content": "100,0,13,56" ,
+"Content": "CMYK:100,0,13,56" ,
 "Title":"翠绿" ,
 "Subtitle" : "RGB:0,110,95" ,
 "Color": "#006e5f" ,
@@ -1688,7 +1687,7 @@
 
 {
 "UniqueId" : "cujingzao" ,
-"Content": "9,6,0,70" ,
+"Content": "CMYK:9,6,0,70" ,
 "Title":"粗晶皂" ,
 "Subtitle" : "RGB:67,69,74" ,
 "Color": "#43454a" ,
@@ -1697,7 +1696,7 @@
 
 {
 "UniqueId" : "dachijin" ,
-"Content": "5,0,23,54" ,
+"Content": "CMYK:5,0,23,54" ,
 "Title":"大赤金" ,
 "Subtitle" : "RGB:109,115,88" ,
 "Color": "#6d7358" ,
@@ -1706,7 +1705,7 @@
 
 {
 "UniqueId" : "dailan" ,
-"Content": "45,19,0,65" ,
+"Content": "CMYK:45,19,0,65" ,
 "Title":"黛蓝" ,
 "Subtitle" : "RGB:48,71,88" ,
 "Color": "#304758" ,
@@ -1715,7 +1714,7 @@
 
 {
 "UniqueId" : "dandongshi" ,
-"Content": "0,10,50,15" ,
+"Content": "CMYK:0,10,50,15" ,
 "Title":"丹东石" ,
 "Subtitle" : "RGB:215,193,107" ,
 "Color": "#d7c16b" ,
@@ -1724,7 +1723,7 @@
 
 {
 "UniqueId" : "danhuilyv" ,
-"Content": "11,0,6,23" ,
+"Content": "CMYK:11,0,6,23" ,
 "Title":"淡灰绿" ,
 "Subtitle" : "RGB:174,196,183" ,
 "Color": "#aec4b7" ,
@@ -1733,7 +1732,7 @@
 
 {
 "UniqueId" : "dengcaohui" ,
-"Content": "0,1,7,78" ,
+"Content": "CMYK:0,1,7,78" ,
 "Title":"灯草灰" ,
 "Subtitle" : "RGB:54,53,50" ,
 "Color": "#363532" ,
@@ -1742,7 +1741,7 @@
 
 {
 "UniqueId" : "fanqiehong" ,
-"Content": "0,63,68,23" ,
+"Content": "CMYK:0,63,68,23" ,
 "Title":"蕃茄红" ,
 "Subtitle" : "RGB:196,71,61" ,
 "Color": "#c4473d" ,
@@ -1751,7 +1750,7 @@
 
 {
 "UniqueId" : "feihong" ,
-"Content": "0,55,56,23" ,
+"Content": "CMYK:0,55,56,23" ,
 "Title":"妃红" ,
 "Subtitle" : "RGB:195,86,85" ,
 "Color": "#c35655" ,
@@ -1760,7 +1759,7 @@
 
 {
 "UniqueId" : "gancaohuang" ,
-"Content": "0,9,37,10" ,
+"Content": "CMYK:0,9,37,10" ,
 "Title":"甘草黄" ,
 "Subtitle" : "RGB:228,207,142" ,
 "Color": "#e4cf8e" ,
@@ -1769,7 +1768,7 @@
 
 {
 "UniqueId" : "ganlanlyv" ,
-"Content": "0,1,50,58" ,
+"Content": "CMYK:0,1,50,58" ,
 "Title":"橄榄绿" ,
 "Subtitle" : "RGB:106,104,52" ,
 "Color": "#6a6834" ,
@@ -1778,7 +1777,7 @@
 
 {
 "UniqueId" : "ganshifen" ,
-"Content": "0,5,8,8" ,
+"Content": "CMYK:0,5,8,8" ,
 "Title":"甘石粉" ,
 "Subtitle" : "RGB:234,220,214" ,
 "Color": "#eadcd6" ,
@@ -1787,7 +1786,7 @@
 
 {
 "UniqueId" : "gulan" ,
-"Content": "42,16,0,31" ,
+"Content": "CMYK:42,16,0,31" ,
 "Title":"钴蓝" ,
 "Subtitle" : "RGB:100,147,175" ,
 "Color": "#6493af" ,
@@ -1796,7 +1795,7 @@
 
 {
 "UniqueId" : "guohui" ,
-"Content": "21,0,6,31" ,
+"Content": "CMYK:21,0,6,31" ,
 "Title":"果灰" ,
 "Subtitle" : "RGB:136,174,163" ,
 "Color": "#88aea3" ,
@@ -1805,7 +1804,7 @@
 
 {
 "UniqueId" : "hailan" ,
-"Content": "81,36,0,50" ,
+"Content": "CMYK:81,36,0,50" ,
 "Title":"海蓝" ,
 "Subtitle" : "RGB:23,80,125" ,
 "Color": "#17507d" ,
@@ -1814,7 +1813,7 @@
 
 {
 "UniqueId" : "hongzao" ,
-"Content": "7,2,0,66" ,
+"Content": "CMYK:7,2,0,66" ,
 "Title":"红皂" ,
 "Subtitle" : "RGB:79,83,85" ,
 "Color": "#4f5355" ,
@@ -1823,7 +1822,7 @@
 
 {
 "UniqueId" : "huanghui" ,
-"Content": "3,0,6,28" ,
+"Content": "CMYK:3,0,6,28" ,
 "Title":"黄灰" ,
 "Subtitle" : "RGB:176,183,172" ,
 "Color": "#b0b7ac" ,
@@ -1832,7 +1831,7 @@
 
 {
 "UniqueId" : "huaqing" ,
-"Content": "35,18,0,48" ,
+"Content": "CMYK:35,18,0,48" ,
 "Title":"花青" ,
 "Subtitle" : "RGB:84,107,131" ,
 "Color": "#546b83" ,
@@ -1841,7 +1840,7 @@
 
 {
 "UniqueId" : "hufen" ,
-"Content": "0,1,6,7" ,
+"Content": "CMYK:0,1,6,7" ,
 "Title":"胡粉" ,
 "Subtitle" : "RGB:235,232,219" ,
 "Color": "#ebe8db" ,
@@ -1850,7 +1849,7 @@
 
 {
 "UniqueId" : "huilan" ,
-"Content": "32,5,0,45" ,
+"Content": "CMYK:32,5,0,45" ,
 "Title":"灰蓝" ,
 "Subtitle" : "RGB:93,130,138" ,
 "Color": "#5d828a" ,
@@ -1859,7 +1858,7 @@
 
 {
 "UniqueId" : "huilyv" ,
-"Content": "32,0,1,46" ,
+"Content": "CMYK:32,0,1,46" ,
 "Title":"灰绿" ,
 "Subtitle" : "RGB:92,137,135" ,
 "Color": "#5c8987" ,
@@ -1868,7 +1867,7 @@
 
 {
 "UniqueId" : "huimi" ,
-"Content": "0,2,17,28" ,
+"Content": "CMYK:0,2,17,28" ,
 "Title":"灰米" ,
 "Subtitle" : "RGB:182,177,150" ,
 "Color": "#b6b196" ,
@@ -1877,7 +1876,7 @@
 
 {
 "UniqueId" : "jianghuang" ,
-"Content": "0,17,70,29" ,
+"Content": "CMYK:0,17,70,29" ,
 "Title":"姜黄" ,
 "Subtitle" : "RGB:180,148,54" ,
 "Color": "#b49436" ,
@@ -1886,7 +1885,7 @@
 
 {
 "UniqueId" : "jiangxiaoni" ,
-"Content": "0,11,32,57" ,
+"Content": "CMYK:0,11,32,57" ,
 "Title":"将校呢" ,
 "Subtitle" : "RGB:109,97,74" ,
 "Color": "#6d614a" ,
@@ -1895,7 +1894,7 @@
 
 {
 "UniqueId" : "jiangzi" ,
-"Content": "0,31,30,56" ,
+"Content": "CMYK:0,31,30,56" ,
 "Title":"绛紫" ,
 "Subtitle" : "RGB:112,77,78" ,
 "Color": "#704d4e" ,
@@ -1904,7 +1903,7 @@
 
 {
 "UniqueId" : "jiehong" ,
-"Content": "0,54,72,9" ,
+"Content": "CMYK:0,54,72,9" ,
 "Title":"桔红" ,
 "Subtitle" : "RGB:231,105,63" ,
 "Color": "#e7693f" ,
@@ -1913,7 +1912,7 @@
 
 {
 "UniqueId" : "jiehuang" ,
-"Content": "0,42,74,9" ,
+"Content": "CMYK:0,42,74,9" ,
 "Title":"桔黄" ,
 "Subtitle" : "RGB:232,133,59" ,
 "Color": "#e8853b" ,
@@ -1922,7 +1921,7 @@
 
 {
 "UniqueId" : "jinhuang" ,
-"Content": "0,38,70,21" ,
+"Content": "CMYK:0,38,70,21" ,
 "Title":"金黄" ,
 "Subtitle" : "RGB:199,122,58" ,
 "Color": "#c77a3a" ,
@@ -1931,7 +1930,7 @@
 
 {
 "UniqueId" : "junlyv" ,
-"Content": "4,0,12,16" ,
+"Content": "CMYK:4,0,12,16" ,
 "Title":"军绿" ,
 "Subtitle" : "RGB:202,212,186" ,
 "Color": "#cad4ba" ,
@@ -1940,7 +1939,7 @@
 
 {
 "UniqueId" : "kongquelan" ,
-"Content": "100,60,0,35" ,
+"Content": "CMYK:100,60,0,35" ,
 "Title":"孔雀蓝" ,
 "Subtitle" : "RGB:0,65,165" ,
 "Color": "#0041a5" ,
@@ -1949,7 +1948,7 @@
 
 {
 "UniqueId" : "kujin" ,
-"Content": "0,9,40,47" ,
+"Content": "CMYK:0,9,40,47" ,
 "Title":"库金" ,
 "Subtitle" : "RGB:133,121,79" ,
 "Color": "#85794f" ,
@@ -1958,7 +1957,7 @@
 
 {
 "UniqueId" : "kulyv" ,
-"Content": "0,2,34,28" ,
+"Content": "CMYK:0,2,34,28" ,
 "Title":"枯绿" ,
 "Subtitle" : "RGB:183,178,120" ,
 "Color": "#b7b278" ,
@@ -1967,7 +1966,7 @@
 
 {
 "UniqueId" : "labai" ,
-"Content": "0,0,9,9" ,
+"Content": "CMYK:0,0,9,9" ,
 "Title":"蜡白" ,
 "Subtitle" : "RGB:231,229,208" ,
 "Color": "#e7e5d0" ,
@@ -1976,7 +1975,7 @@
 
 {
 "UniqueId" : "laolyv" ,
-"Content": "44,0,24,56" ,
+"Content": "CMYK:44,0,24,56" ,
 "Title":"老绿" ,
 "Subtitle" : "RGB:61,110,83" ,
 "Color": "#3d6e53" ,
@@ -1985,7 +1984,7 @@
 
 {
 "UniqueId" : "liuhuahong" ,
-"Content": "0,64,68,16" ,
+"Content": "CMYK:0,64,68,16" ,
 "Title":"榴花红" ,
 "Subtitle" : "RGB:213,75,68" ,
 "Color": "#d54b44" ,
@@ -1994,7 +1993,7 @@
 
 {
 "UniqueId" : "luhui" ,
-"Content": "3,0,18,30" ,
+"Content": "CMYK:3,0,18,30" ,
 "Title":"芦灰" ,
 "Subtitle" : "RGB:169,176,143" ,
 "Color": "#a9b08f" ,
@@ -2003,7 +2002,7 @@
 
 {
 "UniqueId" : "meiguihong" ,
-"Content": "0,65,54,40" ,
+"Content": "CMYK:0,65,54,40" ,
 "Title":"玫瑰红" ,
 "Subtitle" : "RGB:151,52,68" ,
 "Color": "#973444" ,
@@ -2012,7 +2011,7 @@
 
 {
 "UniqueId" : "meiguihui" ,
-"Content": "0,49,28,52" ,
+"Content": "CMYK:0,49,28,52" ,
 "Title":"玫瑰灰" ,
 "Subtitle" : "RGB:121,61,86" ,
 "Color": "#793d56" ,
@@ -2021,7 +2020,7 @@
 
 {
 "UniqueId" : "mihong" ,
-"Content": "0,15,28,11" ,
+"Content": "CMYK:0,15,28,11" ,
 "Title":"米红" ,
 "Subtitle" : "RGB:225,189,162" ,
 "Color": "#e1bda2" ,
@@ -2030,7 +2029,7 @@
 
 {
 "UniqueId" : "mihui" ,
-"Content": "0,3,12,22" ,
+"Content": "CMYK:0,3,12,22" ,
 "Title":"米灰" ,
 "Subtitle" : "RGB:197,191,173" ,
 "Color": "#c5bfad" ,
@@ -2039,7 +2038,7 @@
 
 {
 "UniqueId" : "mise" ,
-"Content": "0,0,10,3" ,
+"Content": "CMYK:0,0,10,3" ,
 "Title":"米色" ,
 "Subtitle" : "RGB:245,245,220" ,
 "Color": "#f5f5dc" ,
@@ -2048,7 +2047,7 @@
 
 {
 "UniqueId" : "nailyv" ,
-"Content": "12,0,7,21" ,
+"Content": "CMYK:12,0,7,21" ,
 "Title":"奶绿" ,
 "Subtitle" : "RGB:175,200,186" ,
 "Color": "#afc8ba" ,
@@ -2057,7 +2056,7 @@
 
 {
 "UniqueId" : "naizong" ,
-"Content": "0,16,20,24" ,
+"Content": "CMYK:0,16,20,24" ,
 "Title":"奶棕" ,
 "Subtitle" : "RGB:193,162,153" ,
 "Color": "#c1a299" ,
@@ -2066,7 +2065,7 @@
 
 {
 "UniqueId" : "ningmenghuang" ,
-"Content": "0,6,75,8" ,
+"Content": "CMYK:0,6,75,8" ,
 "Title":"柠檬黄" ,
 "Subtitle" : "RGB:233,219,57" ,
 "Color": "#e9db39" ,
@@ -2075,7 +2074,7 @@
 
 {
 "UniqueId" : "pinhong" ,
-"Content": "0,88,37,34" ,
+"Content": "CMYK:0,88,37,34" ,
 "Title":"品红" ,
 "Subtitle" : "RGB:167,19,104" ,
 "Color": "#a71368" ,
@@ -2084,7 +2083,7 @@
 
 {
 "UniqueId" : "qianhaichanglan" ,
-"Content": "58,35,0,43" ,
+"Content": "CMYK:58,35,0,43" ,
 "Title":"浅海昌蓝" ,
 "Subtitle" : "RGB:60,94,145" ,
 "Color": "#3c5e91" ,
@@ -2093,7 +2092,7 @@
 
 {
 "UniqueId" : "qianhuangzong" ,
-"Content": "0,24,45,12" ,
+"Content": "CMYK:0,24,45,12" ,
 "Title":"浅黄棕" ,
 "Subtitle" : "RGB:222,168,122" ,
 "Color": "#dea87a" ,
@@ -2102,7 +2101,7 @@
 
 {
 "UniqueId" : "qianjiehuang" ,
-"Content": "0,31,59,14" ,
+"Content": "CMYK:0,31,59,14" ,
 "Title":"浅桔黄" ,
 "Subtitle" : "RGB:218,149,88" ,
 "Color": "#da9558" ,
@@ -2111,7 +2110,7 @@
 
 {
 "UniqueId" : "qianniuzi" ,
-"Content": "0,80,27,36" ,
+"Content": "CMYK:0,80,27,36" ,
 "Title":"牵牛紫" ,
 "Subtitle" : "RGB:162,32,118" ,
 "Color": "#a22076" ,
@@ -2120,7 +2119,7 @@
 
 {
 "UniqueId" : "qianshiyingzi" ,
-"Content": "13,23,0,22" ,
+"Content": "CMYK:13,23,0,22" ,
 "Title":"浅石英紫" ,
 "Subtitle" : "RGB:171,150,197" ,
 "Color": "#ab96c5" ,
@@ -2129,7 +2128,7 @@
 
 {
 "UniqueId" : "qiantengzi" ,
-"Content": "3,3,0,20" ,
+"Content": "CMYK:3,3,0,20" ,
 "Title":"浅藤紫" ,
 "Subtitle" : "RGB:196,195,203" ,
 "Color": "#c4c3cb" ,
@@ -2138,7 +2137,7 @@
 
 {
 "UniqueId" : "qiantuose" ,
-"Content": "0,13,30,21" ,
+"Content": "CMYK:0,13,30,21" ,
 "Title":"浅驼色" ,
 "Subtitle" : "RGB:201,174,140" ,
 "Color": "#c9ae8c" ,
@@ -2147,7 +2146,7 @@
 
 {
 "UniqueId" : "qianxieya" ,
-"Content": "0,12,10,8" ,
+"Content": "CMYK:0,12,10,8" ,
 "Title":"浅血牙" ,
 "Subtitle" : "RGB:234,205,209" ,
 "Color": "#eacdd1" ,
@@ -2156,7 +2155,7 @@
 
 {
 "UniqueId" : "qianzonghui" ,
-"Content": "0,2,8,11" ,
+"Content": "CMYK:0,2,8,11" ,
 "Title":"浅棕灰" ,
 "Subtitle" : "RGB:225,219,205" ,
 "Color": "#e1dbcd" ,
@@ -2165,7 +2164,7 @@
 
 {
 "UniqueId" : "kaqihuang" ,
-"Content": "0,13,38,16" ,
+"Content": "CMYK:0,13,38,16" ,
 "Title":"卡其黄" ,
 "Subtitle" : "RGB:213,184,132" ,
 "Color": "#d5b884" ,
@@ -2174,7 +2173,7 @@
 
 {
 "UniqueId" : "kaqilyv" ,
-"Content": "13,0,2,54" ,
+"Content": "CMYK:13,0,2,54" ,
 "Title":"卡其绿" ,
 "Subtitle" : "RGB:100,115,112" ,
 "Color": "#647370" ,
@@ -2183,7 +2182,7 @@
 
 {
 "UniqueId" : "qiepizi" ,
-"Content": "0,29,22,59" ,
+"Content": "CMYK:0,29,22,59" ,
 "Title":"茄皮紫" ,
 "Subtitle" : "RGB:103,73,80" ,
 "Color": "#674950" ,
@@ -2192,7 +2191,7 @@
 
 {
 "UniqueId" : "quehui" ,
-"Content": "33,16,0,59" ,
+"Content": "CMYK:33,16,0,59" ,
 "Title":"鹊灰" ,
 "Subtitle" : "RGB:69,86,103" ,
 "Color": "#455667" ,
@@ -2201,7 +2200,7 @@
 
 {
 "UniqueId" : "ronglan" ,
-"Content": "65,26,0,44" ,
+"Content": "CMYK:65,26,0,44" ,
 "Title":"绒蓝" ,
 "Subtitle" : "RGB:49,103,141" ,
 "Color": "#31678d" ,
@@ -2210,7 +2209,7 @@
 
 {
 "UniqueId" : "sanlyv" ,
-"Content": "28,0,13,20" ,
+"Content": "CMYK:28,0,13,20" ,
 "Title":"三绿" ,
 "Subtitle" : "RGB:144,202,175" ,
 "Color": "#90caaf" ,
@@ -2219,7 +2218,7 @@
 
 {
 "UniqueId" : "shalyv" ,
-"Content": "100,0,1,64" ,
+"Content": "CMYK:100,0,1,64" ,
 "Title":"沙绿" ,
 "Subtitle" : "RGB:0,91,90" ,
 "Color": "#005b5a" ,
@@ -2228,7 +2227,7 @@
 
 {
 "UniqueId" : "shaqing" ,
-"Content": "65,24,0,50" ,
+"Content": "CMYK:65,24,0,50" ,
 "Title":"沙青" ,
 "Subtitle" : "RGB:43,94,125" ,
 "Color": "#2b5e7d" ,
@@ -2237,7 +2236,7 @@
 
 {
 "UniqueId" : "shenyan" ,
-"Content": "0,15,15,64" ,
+"Content": "CMYK:0,15,15,64" ,
 "Title":"深烟" ,
 "Subtitle" : "RGB:90,76,76" ,
 "Color": "#5a4c4c" ,
@@ -2246,7 +2245,7 @@
 
 {
 "UniqueId" : "shenyanhong" ,
-"Content": "0,48,34,60" ,
+"Content": "CMYK:0,48,34,60" ,
 "Title":"深烟红" ,
 "Subtitle" : "RGB:100,52,65" ,
 "Color": "#643441" ,
@@ -2255,7 +2254,7 @@
 
 {
 "UniqueId" : "shenzhuyue" ,
-"Content": "79,33,0,29" ,
+"Content": "CMYK:79,33,0,29" ,
 "Title":"深竹月" ,
 "Subtitle" : "RGB:37,120,181" ,
 "Color": "#2578b5" ,
@@ -2264,7 +2263,7 @@
 
 {
 "UniqueId" : "shiyangjin" ,
-"Content": "0,29,32,1" ,
+"Content": "CMYK:0,29,32,1" ,
 "Title":"十样锦" ,
 "Subtitle" : "RGB:252,177,170" ,
 "Color": "#fcb1aa" ,
@@ -2273,7 +2272,7 @@
 
 {
 "UniqueId" : "shuidiaohui" ,
-"Content": "5,0,3,38" ,
+"Content": "CMYK:5,0,3,38" ,
 "Title":"水貂灰" ,
 "Subtitle" : "RGB:148,156,151" ,
 "Color": "#949c97" ,
@@ -2282,7 +2281,7 @@
 
 {
 "UniqueId" : "shuihuang" ,
-"Content": "9,0,13,17" ,
+"Content": "CMYK:9,0,13,17" ,
 "Title":"水黄" ,
 "Subtitle" : "RGB:190,210,182" ,
 "Color": "#bed2b6" ,
@@ -2291,7 +2290,7 @@
 
 {
 "UniqueId" : "tenghuang" ,
-"Content": "0,8,51,5" ,
+"Content": "CMYK:0,8,51,5" ,
 "Title":"藤黄" ,
 "Subtitle" : "RGB:242,222,118" ,
 "Color": "#f2de76" ,
@@ -2300,7 +2299,7 @@
 
 {
 "UniqueId" : "tiehui" ,
-"Content": "26,9,0,70" ,
+"Content": "CMYK:26,9,0,70" ,
 "Title":"铁灰" ,
 "Subtitle" : "RGB:55,68,75" ,
 "Color": "#37444b" ,
@@ -2309,7 +2308,7 @@
 
 {
 "UniqueId" : "tuhuang" ,
-"Content": "0,28,74,19" ,
+"Content": "CMYK:0,28,74,19" ,
 "Title":"土黄" ,
 "Subtitle" : "RGB:206,147,53" ,
 "Color": "#ce9335" ,
@@ -2318,7 +2317,7 @@
 
 {
 "UniqueId" : "xiangsihui" ,
-"Content": "0,6,16,61" ,
+"Content": "CMYK:0,6,16,61" ,
 "Title":"相思灰" ,
 "Subtitle" : "RGB:98,92,82" ,
 "Color": "#625c52" ,
@@ -2327,7 +2326,7 @@
 
 {
 "UniqueId" : "xiehong" ,
-"Content": "0,61,75,37" ,
+"Content": "CMYK:0,61,75,37" ,
 "Title":"血红" ,
 "Subtitle" : "RGB:160,62,40" ,
 "Color": "#a03e28" ,
@@ -2336,7 +2335,7 @@
 
 {
 "UniqueId" : "xinghong" ,
-"Content": "0,71,70,23" ,
+"Content": "CMYK:0,71,70,23" ,
 "Title":"猩红" ,
 "Subtitle" : "RGB:196,55,57" ,
 "Color": "#c43739" ,
@@ -2345,7 +2344,7 @@
 
 {
 "UniqueId" : "xionghuang" ,
-"Content": "0,36,70,18" ,
+"Content": "CMYK:0,36,70,18" ,
 "Title":"雄黄" ,
 "Subtitle" : "RGB:208,133,61" ,
 "Color": "#d0853d" ,
@@ -2354,7 +2353,7 @@
 
 {
 "UniqueId" : "xiongjing" ,
-"Content": "0,48,71,10" ,
+"Content": "CMYK:0,48,71,10" ,
 "Title":"雄精" ,
 "Subtitle" : "RGB:228,117,66" ,
 "Color": "#e47542" ,
@@ -2363,7 +2362,7 @@
 
 {
 "UniqueId" : "xiuhong" ,
-"Content": "0,67,67,69" ,
+"Content": "CMYK:0,67,67,69" ,
 "Title":"锈红" ,
 "Subtitle" : "RGB:77,25,25" ,
 "Color": "#4d1919" ,
@@ -2372,7 +2371,7 @@
 
 {
 "UniqueId" : "xiulyv" ,
-"Content": "8,0,8,21" ,
+"Content": "CMYK:8,0,8,21" ,
 "Title":"锈绿" ,
 "Subtitle" : "RGB:184,200,183" ,
 "Color": "#b8c8b7" ,
@@ -2381,7 +2380,7 @@
 
 {
 "UniqueId" : "xuanjin" ,
-"Content": "0,8,30,52" ,
+"Content": "CMYK:0,8,30,52" ,
 "Title":"选金" ,
 "Subtitle" : "RGB:121,111,84" ,
 "Color": "#796f54" ,
@@ -2390,7 +2389,7 @@
 
 {
 "UniqueId" : "xuese" ,
-"Content": "0,1,1,0" ,
+"Content": "CMYK:0,1,1,0" ,
 "Title":"雪色" ,
 "Subtitle" : "RGB:255,250,250" ,
 "Color": "#fffafa" ,
@@ -2399,7 +2398,7 @@
 
 {
 "UniqueId" : "xuezi" ,
-"Content": "0,40,25,52" ,
+"Content": "CMYK:0,40,25,52" ,
 "Title":"雪紫" ,
 "Subtitle" : "RGB:121,72,90" ,
 "Color": "#79485a" ,
@@ -2408,7 +2407,7 @@
 
 {
 "UniqueId" : "yadanqing" ,
-"Content": "7,0,3,10" ,
+"Content": "CMYK:7,0,3,10" ,
 "Title":"鸭蛋青" ,
 "Subtitle" : "RGB:209,227,219" ,
 "Color": "#d1e3db" ,
@@ -2417,7 +2416,7 @@
 
 {
 "UniqueId" : "yangcongzi" ,
-"Content": "0,34,17,38" ,
+"Content": "CMYK:0,34,17,38" ,
 "Title":"洋葱紫" ,
 "Subtitle" : "RGB:156,102,128" ,
 "Color": "#9c6680" ,
@@ -2426,7 +2425,7 @@
 
 {
 "UniqueId" : "yanghong" ,
-"Content": "0,90,72,13" ,
+"Content": "CMYK:0,90,72,13" ,
 "Title":"洋红" ,
 "Subtitle" : "RGB:220,20,60" ,
 "Color": "#dc143c" ,
@@ -2435,7 +2434,7 @@
 
 {
 "UniqueId" : "yanhong" ,
-"Content": "0,74,73,19" ,
+"Content": "CMYK:0,74,73,19" ,
 "Title":"艳红" ,
 "Subtitle" : "RGB:204,53,54" ,
 "Color": "#cc3536" ,
@@ -2444,7 +2443,7 @@
 
 {
 "UniqueId" : "yingwulyv" ,
-"Content": "100,0,37,44" ,
+"Content": "CMYK:100,0,37,44" ,
 "Title":"鹦鹉绿" ,
 "Subtitle" : "RGB:0,142,89" ,
 "Color": "#008e59" ,
@@ -2453,7 +2452,7 @@
 
 {
 "UniqueId" : "yinzhu" ,
-"Content": "0,55,55,18" ,
+"Content": "CMYK:0,55,55,18" ,
 "Title":"银朱" ,
 "Subtitle" : "RGB:209,93,94" ,
 "Color": "#d15d5e" ,
@@ -2462,7 +2461,7 @@
 
 {
 "UniqueId" : "youlyv" ,
-"Content": "18,0,12,66" ,
+"Content": "CMYK:18,0,12,66" ,
 "Title":"油绿" ,
 "Subtitle" : "RGB:69,85,74" ,
 "Color": "#45554a" ,
@@ -2471,7 +2470,7 @@
 
 {
 "UniqueId" : "youyanmo" ,
-"Content": "0,0,4,75" ,
+"Content": "CMYK:0,0,4,75" ,
 "Title":"油烟墨" ,
 "Subtitle" : "RGB:63,63,60" ,
 "Color": "#3f3f3c" ,
@@ -2480,7 +2479,7 @@
 
 {
 "UniqueId" : "yuanqing" ,
-"Content": "0,3,1,75" ,
+"Content": "CMYK:0,3,1,75" ,
 "Title":"元青" ,
 "Subtitle" : "RGB:62,60,61" ,
 "Color": "#3e3c3d" ,
@@ -2489,7 +2488,7 @@
 
 {
 "UniqueId" : "yanzhi" ,
-"Content": "0,69,61,41" ,
+"Content": "CMYK:0,69,61,41" ,
 "Title":"胭脂" ,
 "Subtitle" : "RGB:149,46,58" ,
 "Color": "#952e3a" ,
@@ -2498,7 +2497,7 @@
 
 {
 "UniqueId" : "yinbo" ,
-"Content": "2,0,3,64" ,
+"Content": "CMYK:2,0,3,64" ,
 "Title":"银箔" ,
 "Subtitle" : "RGB:88,90,87" ,
 "Color": "#585a57" ,
@@ -2507,7 +2506,7 @@
 
 {
 "UniqueId" : "yuejihong" ,
-"Content": "0,85,72,26" ,
+"Content": "CMYK:0,85,72,26" ,
 "Title":"月季红" ,
 "Subtitle" : "RGB:187,28,51" ,
 "Color": "#bb1c33" ,
@@ -2516,7 +2515,7 @@
 
 {
 "UniqueId" : "yushilan" ,
-"Content": "38,8,0,48" ,
+"Content": "CMYK:38,8,0,48" ,
 "Title":"玉石蓝" ,
 "Subtitle" : "RGB:80,120,131" ,
 "Color": "#507883" ,
@@ -2525,7 +2524,7 @@
 
 {
 "UniqueId" : "zaohong" ,
-"Content": "0,64,54,46" ,
+"Content": "CMYK:0,64,54,46" ,
 "Title":"枣红" ,
 "Subtitle" : "RGB:137,48,63" ,
 "Color": "#89303f" ,
@@ -2534,7 +2533,7 @@
 
 {
 "UniqueId" : "zhangdan" ,
-"Content": "0,57,80,7" ,
+"Content": "CMYK:0,57,80,7" ,
 "Title":"章丹" ,
 "Subtitle" : "RGB:235,101,45" ,
 "Color": "#eb652d" ,
@@ -2543,7 +2542,7 @@
 
 {
 "UniqueId" : "zhenghui" ,
-"Content": "13,4,0,33" ,
+"Content": "CMYK:13,4,0,33" ,
 "Title":"正灰" ,
 "Subtitle" : "RGB:147,162,169" ,
 "Color": "#93a2a9" ,
@@ -2552,7 +2551,7 @@
 
 {
 "UniqueId" : "zhihuang" ,
-"Content": "0,9,24,14" ,
+"Content": "CMYK:0,9,24,14" ,
 "Title":"枝黄" ,
 "Subtitle" : "RGB:219,199,166" ,
 "Color": "#dbc7a6" ,
@@ -2561,7 +2560,7 @@
 
 {
 "UniqueId" : "zhijinhui" ,
-"Content": "17,2,0,44" ,
+"Content": "CMYK:17,2,0,44" ,
 "Title":"织锦灰" ,
 "Subtitle" : "RGB:116,138,141" ,
 "Color": "#748a8d" ,
@@ -2570,7 +2569,7 @@
 
 {
 "UniqueId" : "zhizong" ,
-"Content": "0,12,23,26" ,
+"Content": "CMYK:0,12,23,26" ,
 "Title":"纸棕" ,
 "Subtitle" : "RGB:188,165,144" ,
 "Color": "#bca590" ,
@@ -2579,7 +2578,7 @@
 
 {
 "UniqueId" : "zhongzonghui" ,
-"Content": "0,10,26,33" ,
+"Content": "CMYK:0,10,26,33" ,
 "Title":"中棕灰" ,
 "Subtitle" : "RGB:169,152,124" ,
 "Color": "#a9987c" ,
@@ -2588,7 +2587,7 @@
 
 {
 "UniqueId" : "zifen" ,
-"Content": "0,59,46,35" ,
+"Content": "CMYK:0,59,46,35" ,
 "Title":"紫粉" ,
 "Subtitle" : "RGB:165,67,88" ,
 "Color": "#a54358" ,
@@ -2597,7 +2596,7 @@
 
 {
 "UniqueId" : "zishuijing" ,
-"Content": "3,18,0,20" ,
+"Content": "CMYK:3,18,0,20" ,
 "Title":"紫水晶" ,
 "Subtitle" : "RGB:195,166,203" ,
 "Color": "#c3a6cb" ,
@@ -2606,7 +2605,7 @@
 
 {
 "UniqueId" : "zitenghui" ,
-"Content": "10,15,0,41" ,
+"Content": "CMYK:10,15,0,41" ,
 "Title":"紫藤灰" ,
 "Subtitle" : "RGB:133,126,149" ,
 "Color": "#857e95" ,
@@ -2615,7 +2614,7 @@
 
 {
 "UniqueId" : "ziweihua" ,
-"Content": "0,30,12,6" ,
+"Content": "CMYK:0,30,12,6" ,
 "Title":"紫薇花" ,
 "Subtitle" : "RGB:238,165,209" ,
 "Color": "#eea5d1" ,
@@ -2624,7 +2623,7 @@
 
 {
 "UniqueId" : "zongcha" ,
-"Content": "0,28,57,27" ,
+"Content": "CMYK:0,28,57,27" ,
 "Title":"棕茶" ,
 "Subtitle" : "RGB:184,132,79" ,
 "Color": "#b8844f" ,

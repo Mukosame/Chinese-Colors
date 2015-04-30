@@ -9,9 +9,7 @@ using Windows.ApplicationModel.Resources;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Graphics.Display;
-//using Windows.Storage.Pickers;
 using Windows.Storage;
-//using Windows.Graphics.Display;
 using Windows.Graphics.Imaging;
 using System.Text;
 using Windows.UI.Core;
@@ -149,6 +147,12 @@ namespace ChineseColors
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
             var itemColor = ((SampleDataItem)e.ClickedItem).Color;
             Title.Text = ((SampleDataItem)e.ClickedItem).Title;
+            if (((SampleDataItem)e.ClickedItem).UniqueId.StartsWith("rgb"))
+            { pinyin.Text = ""; }
+            else
+            {
+                pinyin.Text = ((SampleDataItem)e.ClickedItem).UniqueId.ToUpper()+"\n";
+            }
             RGB.Text = ((SampleDataItem)e.ClickedItem).Subtitle;
             CMYK.Text = ((SampleDataItem)e.ClickedItem).Content;
             HEX.Text = "HEX:"+ ((SampleDataItem)e.ClickedItem).Color.ToUpper();
@@ -206,15 +210,6 @@ namespace ChineseColors
             return temp;
         }
 
-        private void Spectrum(object sender, RoutedEventArgs e)
-        {
-            //设置绑定的数据集
-            Frame.Navigate(typeof(Page2));
-            if (!Frame.Navigate(typeof(Page2)))
-            {
-                throw new Exception(this.resourceLoader.GetString("NavigationFailedExceptionMessage"));
-            }
-        }
         private async void bclick(object sender, RoutedEventArgs e)
         {
             await Windows.System.Launcher.LaunchUriAsync(
@@ -223,7 +218,6 @@ namespace ChineseColors
 
         private void cclick(object sender, RoutedEventArgs e)
         {
-            //this.NavigationService.Navigate(new Uri("/Info_Page.xaml", UriKind.Relative));
             Frame.Navigate(typeof(BasicPage1), appversion);
         }
 
@@ -232,6 +226,7 @@ namespace ChineseColors
             if (flag == 0) flag = 1;
             else flag = 0;
             Title.Foreground = new SolidColorBrush(FontColor[flag]);
+            pinyin.Foreground = new SolidColorBrush(FontColor[flag]);
             RGB.Foreground = new SolidColorBrush(FontColor[flag]);
             CMYK.Foreground = new SolidColorBrush(FontColor[flag]);
             HEX.Foreground = new SolidColorBrush(FontColor[flag]);
@@ -304,14 +299,6 @@ namespace ChineseColors
         //not finished
         private async void InitRandom()
         {
-                         /*
-            Title.Text = "粉红";
-            RGB.Text = "RGB:255,179,167";
-            CMYK.Text = "CMYK:0,37,26,0";
-            des.Text = "粉红，即浅红色。别称：妃色,杨妃色,湘妃色,妃红色";
-            Brush.Color = Color.FromArgb(255, 255, 179, 167);
-            Hub.Background = Brush;
-             */
             var Brush = new SolidColorBrush();
 
             Random r = new Random();

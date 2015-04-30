@@ -193,6 +193,7 @@
     <MainPackageIdentityName>31979Mukosame.24</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.134650FEACD72</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.CompassStellaris</MainPackageIdentityName>
+    <MainPackageIdentityName>31979Mukosame.SpeedMeter</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.173590CC2FC62</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.42999BF01CF6F</MainPackageIdentityName>
     <MainPackageIdentityName>31979Mukosame.42957904A425E</MainPackageIdentityName>
@@ -202,7 +203,7 @@
     <PackageInfo>
       <OsMinVersion>6.3.0.0</OsMinVersion>
       <PackageArchitecture>neutral</PackageArchitecture>
-      <PackageMaxArchitectureVersion>1.1.0.6</PackageMaxArchitectureVersion>
+      <PackageMaxArchitectureVersion>1.1.0.7</PackageMaxArchitectureVersion>
     </PackageInfo>
   </PackageInfoList>
 </StoreAssociation>
