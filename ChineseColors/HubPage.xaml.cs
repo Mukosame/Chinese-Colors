@@ -44,6 +44,7 @@ namespace ChineseColors
         private ApplicationDataContainer localSettings;
         String appversion = GetAppVersion();
         int flag=0;
+        private bool save_word = false;
 
         public HubPage()
         {
@@ -60,6 +61,7 @@ namespace ChineseColors
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.navigationHelper.SaveState += this.NavigationHelper_SaveState;
+            RightDes.PointerPressed += Change_Visibility;
         }
 
         private void HardwareButtons_BackPressed(object sender, Windows.Phone.UI.Input.BackPressedEventArgs e)
@@ -239,26 +241,31 @@ namespace ChineseColors
         private async void SaveForeground(object sender, RoutedEventArgs e)
         {
             RenderTargetBitmap bitmap = new RenderTargetBitmap();
+            string filename = null;
             //source
             Hubsection1.Visibility = Visibility.Collapsed;
-            await bitmap.RenderAsync(Hub);
+            Hubsection2.Visibility = Visibility.Collapsed;
+            //set image destination
+            if (save_word==true)
+            {
+                filename = Title.Text + "_正名.png";
+                await bitmap.RenderAsync(main);
+            }
+            else
+            {
+                filename = Title.Text + ".png";
+                await bitmap.RenderAsync(Hub);
+            }
+
             Hubsection1.Visibility = Visibility.Visible;
+            Hubsection2.Visibility = Visibility.Visible;
             var pixelBuffer = await bitmap.GetPixelsAsync();
 
-            string filename = Title.Text+".png";
             //IStorageFolder applicationFolder = ApplicationData.Current.LocalFolder;
             //IStorageFile saveFile = await applicationFolder.CreateFileAsync(filename, CreationCollisionOption.OpenIfExists);
             StorageFolder storageFolder = KnownFolders.PicturesLibrary;
             var saveFile = await storageFolder.CreateFileAsync(filename,
                 CreationCollisionOption.ReplaceExisting);
-            /*
-            using (Stream stream = await saveFile.OpenStreamForWriteAsync())
-            {
-                byte[] content = Encoding.UTF8.GetBytes("1");
-                await stream.WriteAsync(content, 0, content.Length);
-            }
-            await new MessageDialog("writing done").ShowAsync();
-            */
             //save now as picture
             using (var fileStream = await saveFile.OpenAsync(FileAccessMode.ReadWrite))
             {
@@ -293,8 +300,28 @@ namespace ChineseColors
         {
             localSettings.Values["ok"] = "ok";
         }
-
 #endregion
+        private void Change_Visibility(object sender, RoutedEventArgs e)
+        {
+            if (save_word == false)
+            {
+                save_word = true;
+                RGB.Visibility = Visibility.Collapsed;
+                CMYK.Visibility = Visibility.Collapsed;
+                HEX.Visibility = Visibility.Collapsed;
+                des.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                save_word = false;
+                RGB.Visibility = Visibility.Visible;
+                CMYK.Visibility = Visibility.Visible;
+                HEX.Visibility = Visibility.Visible;
+                des.Visibility = Visibility.Visible;
+            }
+
+        }
+
         #region InitFeature
         //not finished
         private async void InitRandom()
@@ -302,18 +329,8 @@ namespace ChineseColors
             var Brush = new SolidColorBrush();
 
             Random r = new Random();
-            int randomObjectIndext = r.Next(171);
+            int randomObjectIndext = r.Next(170);
             var res = await SampleDataSource.GetGroupAsync("Group-1");
-//            SampleDataGroup res = new SampleDataGroup(null,null,null,null,null);
-            /*
-            if (randomObjectIndext > 171)
-            {
-                randomObjectIndext = randomObjectIndext - 171;
-                res = await SampleDataSource.GetGroupAsync("Group-2");
-            }
-            else
-            {                ;            }
-             * */
             try
             {
                 var item = res.Items.ElementAtOrDefault(randomObjectIndext);

@@ -1530,14 +1530,6 @@
                 "Content": "CMYK:0,86,31,0",
                 "Color": "#ff4777",
                 "Description": "洋红：色橘红。用以画花卉"
-            },
-            {
-                "UniqueId": "rgb(80, 97, 109)",
-                "Title": "墨色",
-                "Subtitle": "RGB:80,97,109",
-                "Content": "CMYK:71,54,44,19",
-                "Color": "#50616d",
-                "Description": "墨色：即黑色"
             }
         ]
     },

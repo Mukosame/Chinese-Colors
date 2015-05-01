@@ -50,7 +50,8 @@
             <CommandBar.PrimaryCommands>
             <AppBarButton Icon="Like" Label="点评" Click="bclick"/>            
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
-                <AppBarButton Icon="FontColor"  Label="颜色" Click="ChangeForeground" />
+                <AppBarButton Icon="FontColor"  Label="颜色" Click="ChangeForeground"/>
+                <!--AppBarButton Icon="Setting" Label="设置" Click="Setting" /-->
                 <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
             </CommandBar.PrimaryCommands>
         </CommandBar>
@@ -59,7 +60,7 @@
     <Grid x:Name="LayoutRoot">
 
         <Pivot x:Name="Hub" Background="Transparent" Margin="0,0,0,-30">
-            <PivotItem x:Uid="HubSection3" Name="Hubsection1"
+            <PivotItem  Name="Hubsection1"
                         DataContext="{Binding Groups[0]}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
 
                 <ListView                         
@@ -76,7 +77,7 @@
             </PivotItem>
 
             <!-- 页2-->
-            <PivotItem x:Uid="HubSectionAdd" Name="Hubsection2"
+            <PivotItem Name="Hubsection2"
                         DataContext="{Binding Groups[1]}" FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB" RenderTransformOrigin="0.5,0.5">
 
                 <ListView                         
@@ -92,13 +93,12 @@
 
             </PivotItem>
 
-            <!-- 页2-->
-            <PivotItem x:Uid="HubSectionVoid" Name="Hubsection3">
-                
-            </PivotItem>
+            <!-- 页3-->
+            <PivotItem x:Uid="HubSectionVoid" Name="Hubsection3" />
+
         </Pivot>
 
-        <Grid Margin="180,10,8,-20">
+        <Grid Margin="180,10,8,-20" Name="RightDes">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
