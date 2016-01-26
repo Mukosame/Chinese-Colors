@@ -50,7 +50,7 @@
             <CommandBar.PrimaryCommands>
             <AppBarButton Icon="Like" Label="点评" Click="bclick"/>            
             <AppBarButton Icon="Help" Label="关于" Click="cclick"/>
-                <AppBarButton Icon="FontColor"  Label="颜色" Click="ChangeForeground"/>
+                <AppBarButton Icon="FontColor"  Label="深色" Name="DesColor"  Click="ChangeForeground"/>
                 <!--AppBarButton Icon="Setting" Label="设置" Click="Setting" /-->
                 <AppBarButton Icon="Save" Label="图片" Click="SaveForeground" />
             </CommandBar.PrimaryCommands>
@@ -71,7 +71,9 @@
                         ItemsSource="{Binding Items}"
                         ItemTemplate="{StaticResource StandardTripleLineItemTemplate}"
                         ItemClick="ItemView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True"
+                     ShowsScrollingPlaceholders="False" 
+                    ScrollViewer.VerticalScrollBarVisibility="Hidden">
                 </ListView>
 
             </PivotItem>
@@ -88,8 +90,9 @@
                         ItemsSource="{Binding Items}"
                         ItemTemplate="{StaticResource StandardTripleLineItemTemplate}"
                         ItemClick="ItemView_ItemClick"
-                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
-                </ListView>
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True" 
+                    ShowsScrollingPlaceholders="False"
+                    ScrollViewer.VerticalScrollBarVisibility="Hidden"/>
 
             </PivotItem>
 

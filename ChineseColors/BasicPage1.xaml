@@ -35,8 +35,15 @@
                 <TextBlock FontSize="22">
                 <LineBreak/>资料来源：
                 <LineBreak/>《中国传统色彩名录》《色谱》
-                <LineBreak/>开发者：Mukosame
+                <LineBreak/>开发者：Mukosame<LineBreak/>
                 </TextBlock>
+                <HyperlinkButton Content="-到作者博客查看本应用使用帮助-"
+                                 FontSize="21"
+                                 FontFamily="Assets/方正清刻本悦宋简体.TTF#FZQingKeBenYueSongS-R-GB"
+                                         Background="Transparent"
+                                         NavigateUri="http://mukosame.github.io/chinese-color-how-to-use" 
+                                 FontWeight="Normal" Foreground="#FF3C0003"/>
+                
                 <Button Content="给我发邮件" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,12,182.667,0" Height="77" BorderThickness="0" Background="#FFB75056" Click="email"/>
             <Button Content="我的其他应用" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,33,182.667,0" Height="77" BorderThickness="0" Background="#FF81161C" Click="otherapp"/>
 

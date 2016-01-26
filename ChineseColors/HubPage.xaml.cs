@@ -225,9 +225,17 @@ namespace ChineseColors
 
         private void ChangeForeground(object sender, RoutedEventArgs e)
         {
-            if (flag == 0) flag = 1;
-            else flag = 0;
-            Title.Foreground = new SolidColorBrush(FontColor[flag]);
+            if (flag == 0)
+            {
+                flag = 1;
+                DesColor.Label = "浅色";
+            }
+            else
+            {
+                flag = 0;
+                DesColor.Label = "深色";
+            }
+                Title.Foreground = new SolidColorBrush(FontColor[flag]);
             pinyin.Foreground = new SolidColorBrush(FontColor[flag]);
             RGB.Foreground = new SolidColorBrush(FontColor[flag]);
             CMYK.Foreground = new SolidColorBrush(FontColor[flag]);

@@ -26,6 +26,9 @@
           <m3:Rotation Preference="landscapeFlipped" />
         </m3:InitialRotationPreference>
       </m3:VisualElements>
+      <ApplicationContentUriRules>
+        <Rule Match="https://mukosame.github.io/chinese-color-how-to-use" Type="include" />
+      </ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>
