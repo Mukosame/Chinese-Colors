@@ -126,8 +126,8 @@ namespace ChineseColors
             mail.Body = "\n\n\n生产厂商：" + Manufacturer + "\n系统名：" + SystemProductName + "\nOS版本：" + OSVersion;
             mail.To.Add(new Windows.ApplicationModel.Email.EmailRecipient("mukosame@foxmail.com", "Mukosame"));
             await Windows.ApplicationModel.Email.EmailManager.ShowComposeNewEmailAsync(mail);
-
         }
+
 
         //search in app store
         private async void otherapp(object sender, RoutedEventArgs e)
